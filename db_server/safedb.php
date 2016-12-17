@@ -21,6 +21,12 @@ if (isset($_GET['finger']))
     }
     if ($count==0)
     {
+        if (isset($_GET['check']))
+        {
+            $arr["status"]=3;
+            echo json_encode($arr);
+            die();
+        }
         $query =  "INSERT INTO browsertab VALUES('".$_GET['finger']."','".$_GET['name']."')";
         $dbh->query($query);
         $res = $dbh->query($query);
@@ -34,3 +40,4 @@ else
 {
     echo "Not a website!";
 }
+?>

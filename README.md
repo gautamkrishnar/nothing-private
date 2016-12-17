@@ -5,10 +5,11 @@ This project is a proof of concept that anyone can identify and track you, even 
 
 
 ## How to use
-* Just visit http://www.nothingprivate.ml and enter your name
+* Just visit http://www.nothingprivate.ml in Private browsing / Icognito mode
+* Enter your name
 * Click **See the magic** button
 * Now you can see a confirmation page
-* Visit the same website in your Private browsing / Icognito mode
+* Visit the same website in normal mode 
 * See the Magic :star:
 
 #### Dont scroll down and ruin the fun... Just follow the above steps.. :smile:

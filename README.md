@@ -25,6 +25,18 @@ Yes nothing is free...
 * http://privatebrowsingmyths.com/
 * TODO: more Useful blog links
 
+### Some tech stuffs
+Nothing private uses the browser fingerprinting feature of client.js to obtain the fingerprint of your web browser. It will save the fingerprint along with your name in a Sqlite db using PHP as backend, when you submits it. Next time, when you visit the website, your browser fingerprint is matched with the cloumn in the database and it will return your name.
+
+Visit [db_server](https://github.com/gautamkrishnar/nothing-private/tree/master/db_server) for the server files.
+
+#### Technologiies used
+* Clientjs Browser fingerprinting
+* PHP
+* Sqlite Database
+* JSON
+* HTML & CSS
+
 ## Contributing
 Feel free to modify the code and open any pull requests.
 ###### Todo

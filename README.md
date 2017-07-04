@@ -39,9 +39,19 @@ Visit [db_server](https://github.com/gautamkrishnar/nothing-private/tree/master/
 
 ## Contributing
 Feel free to modify the code and open any pull requests.
+
 ###### Todo
-* Add more links
-* Fix any typos
+- [ ] Add more links
+- [ ] Fix any typos
+
+## Contributors
+Special thanks to these rockstars:
+* [Sidhin S Thomas](https://github.com/ParadoxZero)
+* [Meshpi](https://github.com/meshpi)
+* [Timothée Boucher](https://github.com/Timothee)
+* [Noah](https://github.com/naltun)
+## Thanks
+* [33giga.com.br](https://33giga.com.br/)  for the [blog post](https://33giga.com.br/site-prova-que-janela-anonima-nao-e-sigilosa-veja-como-navegar-sem-deixar-vestigios-na-rede/)
 
 ## Having trouble
 If you are having trouble using this project, please open a [New issue](https://github.com/gautamkrishnar/nothing-private/issues/new)

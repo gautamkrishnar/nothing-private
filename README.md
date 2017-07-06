@@ -50,6 +50,7 @@ Special thanks to these rockstars:
 * [Meshpi](https://github.com/meshpi)
 * [Timothée Boucher](https://github.com/Timothee)
 * [Noah](https://github.com/naltun)
+* [Khushal Sharma](https://github.com/logan1x)
 ## Thanks
 * [33giga.com.br](https://33giga.com.br/)  for the [blog post](https://33giga.com.br/site-prova-que-janela-anonima-nao-e-sigilosa-veja-como-navegar-sem-deixar-vestigios-na-rede/)
 

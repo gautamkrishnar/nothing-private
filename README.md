@@ -35,11 +35,11 @@ Nothing private uses the browser fingerprinting feature of Client.js to obtain t
 Visit [db_server](https://github.com/gautamkrishnar/nothing-private/tree/master/db_server) for the server files.
 
 #### Technologies used
-* Client.js Browser fingerprinting
-* PHP
-* SQLite Database
-* JSON
-* HTML & CSS
+* [Client.js Browser fingerprinting](https://clientjs.org/)
+* [PHP](https://secure.php.net/)
+* [SQLite Database](https://www.sqlite.org/)
+* [JSON](http://www.json.org/)
+* [HTML](https://developer.mozilla.org/es/docs/Web/HTML) & [CSS](https://developer.mozilla.org/es/docs/Web/CSS)
 
 ## Contributing
 Feel free to modify the code and open any pull requests.

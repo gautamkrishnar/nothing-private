@@ -57,7 +57,8 @@ Special thanks to these rockstars:
 * [Khushal Sharma](https://github.com/logan1x)
 * [Pooja Bhaumik](https://github.com/PoojaB26)
 * [Daniel Davis](https://github.com/tagawa)
-* [eV](https://github.com/electron-volt) 
+* [eV](https://github.com/electron-volt)
+* [Edipo Vinicius da Silva](https://github.com/edipox)
 
 ## Thanks
 * [33giga.com.br](https://33giga.com.br/)  for the [blog post](https://33giga.com.br/site-prova-que-janela-anonima-nao-e-sigilosa-veja-como-navegar-sem-deixar-vestigios-na-rede/)

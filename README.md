@@ -35,11 +35,11 @@ Nothing private uses the browser fingerprinting feature of Client.js to obtain t
 Visit [db_server](https://github.com/gautamkrishnar/nothing-private/tree/master/db_server) for the server files.
 
 #### Technologies used
-* Client.js Browser fingerprinting
-* PHP
-* SQLite Database
-* JSON
-* HTML & CSS
+* [Client.js Browser fingerprinting](https://clientjs.org/)
+* [PHP](https://secure.php.net/)
+* [SQLite Database](https://www.sqlite.org/)
+* [JSON](http://www.json.org/)
+* [HTML](https://developer.mozilla.org/es/docs/Web/HTML) & [CSS](https://developer.mozilla.org/es/docs/Web/CSS)
 
 ## Contributing
 Feel free to modify the code and open any pull requests.
@@ -57,7 +57,8 @@ Special thanks to these rockstars:
 * [Khushal Sharma](https://github.com/logan1x)
 * [Pooja Bhaumik](https://github.com/PoojaB26)
 * [Daniel Davis](https://github.com/tagawa)
-* [eV](https://github.com/electron-volt) 
+* [eV](https://github.com/electron-volt)
+* [Edipo Vinicius da Silva](https://github.com/edipox)
 
 ## Thanks
 * [33giga.com.br](https://33giga.com.br/)  for the [blog post](https://33giga.com.br/site-prova-que-janela-anonima-nao-e-sigilosa-veja-como-navegar-sem-deixar-vestigios-na-rede/)

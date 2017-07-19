@@ -73,6 +73,7 @@ function forgetme(){
     };
     xhr.open("GET", url+param);
     xhr.send();
+    rendermain();
 }
 
 function rendernewtabpage(name){

@@ -1,43 +1,50 @@
 <?php
+
 header("Access-Control-Allow-Origin: *");
-$location ="sqlite:".__DIR__."/safebrowsing.sqllite3";
+$location = "sqlite:".__DIR__."/safebrowsing.sqllite3";
 
 if (isset($_GET['finger']))
 {
-    $dbh  = new PDO($location) or die("cannot open the database");
+	
+    $dbh = new PDO($location) or die("cannot open the database"); 
 
-    $query =  "SELECT * FROM browsertab WHERE fingerprint='".$_GET['finger']."'";
+    $stmt = $dbh->prepare('SELECT * FROM browsertab WHERE fingerprint=?') or trigger_error($dbh->error, E_USER_ERROR);
+    $stmt->execute([$_GET['finger']]) or trigger_error($stmt->error, E_USER_ERROR);
+    $result = $stmt->fetch(); 
+	
     $count = 0;
-    $res = $dbh->query($query);
-    if($res) {
-        foreach ($res as $row) {
+    if ($result) {
+        foreach ($result as $row) {
             $name['name'] = $row[1];
-            $name["status"]=0;
+            $name['status'] = 0;
             $count = $count + 1;
             echo json_encode($name);
             $dbh = null;
             die();
         }
     }
-    if ($count==0)
+    
+    if ($count == 0)
     {
         if (isset($_GET['check']))
         {
-            $arr["status"]=3;
+            $arr['status'] = 3;
             echo json_encode($arr);
             die();
         }
-        $query =  "INSERT INTO browsertab VALUES('".$_GET['finger']."','".$_GET['name']."')";
-        $dbh->query($query);
-        $res = $dbh->query($query);
-        $ar["status"]=1;
+		
+        $query = 'INSERT INTO browsertab VALUES (?,?)';
+        $dbh->prepare($query)->execute([$_GET['finger'], $_GET['name']]);
+        
+        $ar['status'] = 1;
         echo json_encode($ar);
-
+		$dbh=null;
     }
 }
-
 else
 {
-    echo "Not a website!";
+    echo "Not&nbsp;a&nbsp;website!";
 }
 ?>
+
+

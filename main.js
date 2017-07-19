@@ -67,19 +67,18 @@ function forgetme(){
         if (this.readyState === 4 && this.status === 200) {
             var responsetext=JSON.parse(this.responseText);
 			if(responsetext['state']===1){
-				location.reload();
+				rendermain();
 			}
         }
     };
     xhr.open("GET", url+param);
     xhr.send();
-    rendermain();
 }
 
 function rendernewtabpage(name){
 	'use strict';
-    document.getElementById("maindiv").innerHTML='<h3>Welcome back to the website <b>'+name+'</b>. If I can remember your name even though you are using the <b>Private browsing</b> / <b>Incognito mode</b>, I can surely track you.<br/><br/>. This is what big companies are doing. They are spying on you even  when you are using the <b>Private browsing</b> or <b>Incognito mode</b>.<br/><br/><a href="https://github.com/gautamkrishnar/nothing-private" target="_blank">Read more</a><br/><br/>If you liked this project, don\'t forget to give it a Star:<br/></h3>';
-    document.getElementById("user").innerHTML='You are <em>'+name+'!</em><br><br><input type="button" class="btn" onclick="forgetme()" value="Forget Me!" /><br><br>';
+    document.getElementById("maindiv").innerHTML='<h3>Welcome back to the website <b>'+name+'</b>. If I can remember your name even though you are using the <b>Private browsing</b> / <b>Incognito mode</b>, I can surely track you.<br/><br/>. This is what big companies are doing. They are spying on you even  when you are using the <b>Private browsing</b> or <b>Incognito mode</b>.<br/><br/><a href="https://github.com/gautamkrishnar/nothing-private" target="_blank">Read more</a><br/><br/><input type="button" class="btn" onclick="forgetme()" value="Forget Me!" /><br><br>If you liked this project, don\'t forget to give it a Star:<br/></h3>';
+    document.getElementById("user").innerHTML='You are <em>'+name+'!</em>';
 }
 function rendersubmit(name)
 {

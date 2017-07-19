@@ -59,6 +59,7 @@ Special thanks to these rockstars:
 * [Daniel Davis](https://github.com/tagawa)
 * [eV](https://github.com/electron-volt)
 * [Edipo Vinicius da Silva](https://github.com/edipox)
+* [Bruno Massa](https://github.com/brunomassa)
 
 ## Thanks
 * [33giga.com.br](https://33giga.com.br/)  for the [blog post](https://33giga.com.br/site-prova-que-janela-anonima-nao-e-sigilosa-veja-como-navegar-sem-deixar-vestigios-na-rede/)

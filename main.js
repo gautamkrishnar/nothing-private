@@ -67,6 +67,7 @@ function forgetme(){
         if (this.readyState === 4 && this.status === 200) {
             var responsetext=JSON.parse(this.responseText);
 			if(responsetext['state']===1){
+                document.getElementById("user").innerHTML = 'Are you <em>Anonymous?</em>';
 				rendermain();
 			}
         }

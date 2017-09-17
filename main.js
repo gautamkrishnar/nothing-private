@@ -23,7 +23,7 @@ function savefingerprint(check)
     }
    
     var xhr = new XMLHttpRequest();
-    var url="http://belikebill.azurewebsites.net/areyousafe/safedb.php";
+    var url= window.location.protocol + "//belikebill.azurewebsites.net/areyousafe/safedb.php";
     
     
 
@@ -59,7 +59,7 @@ function forgetme(){
             
    
     var xhr = new XMLHttpRequest();
-    var url="http://belikebill.azurewebsites.net/areyousafe/forgetme.php";
+    var url= window.location.protocol +"//belikebill.azurewebsites.net/areyousafe/forgetme.php";
     
     
 

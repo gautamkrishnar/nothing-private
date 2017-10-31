@@ -70,6 +70,10 @@ Special thanks to these rock stars:
 * [eV](https://github.com/electron-volt)
 * [Edipo Vinicius da Silva](https://github.com/edipox)
 * [Bruno Massa](https://github.com/brunomassa)
+* [Nimit Bhargava](https://github.com/nimitbhargava)
+* [Riddler](https://github.com/Waterloo)
+* [Muhammad Ubaid Raza](https://github.com/mubaidr)
+* [Fisayo Afolayan](https://github.com/fisayoafolayan)
 
 ## Thanks
 

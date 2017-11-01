@@ -14,14 +14,11 @@ if (isset($_GET['finger']))
 	
     $count = 0;
     if ($result) {
-        foreach ($result as $row) {
-            $name['name'] = $row[1];
-            $name['status'] = 0;
-            $count = $count + 1;
-            echo json_encode($name);
-            $dbh = null;
-            die();
-        }
+        $name['name'] = $result['name'];
+        $name['status'] = 0;
+        echo json_encode($name);
+        $dbh = null;
+        die();
     }
     
     if ($count == 0)

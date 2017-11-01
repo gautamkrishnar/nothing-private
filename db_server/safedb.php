@@ -16,6 +16,7 @@ if (isset($_GET['finger']))
     if ($result) {
         $name['name'] = $result['name'];
         $name['status'] = 0;
+	$count = 1;
         echo json_encode($name);
         $dbh = null;
         die();

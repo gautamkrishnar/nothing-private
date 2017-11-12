@@ -36,7 +36,8 @@ if (isset($_GET['finger']))
         
         $ar['status'] = 1;
         echo json_encode($ar);
-		$dbh=null;
+	$dbh=null;
+	die();
     }
 }
 else

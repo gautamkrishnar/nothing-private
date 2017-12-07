@@ -29,12 +29,16 @@
     -webkit-border-radius: 28;
     -moz-border-radius: 28;
     border-radius: 0;
-    font-family: Arial;
+    font-family: Arial, Helvetica, sans-serif;
     color: #000000;
     font-size: 20px;
     padding: 10px 20px 10px 20px;
     text-decoration: none;
     border: 1px solid #3498db;
+}
+
+h1, h2, h3, h4, h5, h6, p, span {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 body {

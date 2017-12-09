@@ -74,6 +74,7 @@ Special thanks to these rock stars:
 * [Muhammad Ubaid Raza](https://github.com/mubaidr)
 * [Fisayo Afolayan](https://github.com/fisayoafolayan)
 * [Miles McCain](https://github.com/milesmcc)
+* [Jobin Philip Abraham](https://github.com/jophab)
 
 ## Thanks
 

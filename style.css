@@ -1,96 +1,115 @@
 .btn {
-  background: #3498db;
-  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
-  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
-  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
-  background-image: -o-linear-gradient(top, #3498db, #2980b9);
-  background-image: linear-gradient(to bottom, #3498db, #2980b9);
-  -webkit-border-radius: 28;
-  -moz-border-radius: 28;
-  border-radius: 28px;
-  -webkit-box-shadow: 0 1px 3px #666666;
-  -moz-box-shadow: 0 1px 3px #666666;
-  box-shadow: 0 1px 3px #666666;
-  font-family: Arial;
-  color: #ffffff;
-  font-size: 20px;
-  padding: 10px 20px 10px 20px;
-  text-decoration: none;
+    background: #3498db;
+    background-color: #2980b9;
+    -webkit-box-shadow: 0 1px 3px #666666;
+    -moz-box-shadow: 0 1px 3px #666666;
+    box-shadow: 0 1px 3px #666666;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
 }
+
+.btn:hover {
+    background: #3cb0fd;
+    text-decoration: none;
+}
+
 .hyp {
     color: #FFFFFF;
     text-decoration: none;
 }
-.btn:hover {
-  background: #3cb0fd;
-  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
-  text-decoration: none;
-}
 
 .txt {
     margin-top: 20px;
-  background: #ffffff;
-  -webkit-border-radius: 28;
-  -moz-border-radius: 28;
-  border-radius: 0;
-  -webkit-box-shadow: 0 1px 3px #666666;
-  -moz-box-shadow: 0 1px 3px #666666;
-  box-shadow: 0 1px 3px #666666;
-  font-family: Arial;
-  color: #000000;
-  font-size: 20px;
-  padding: 10px 20px 10px 20px;
-  text-decoration: none;
+    background: #ffffff;
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    border: 1px solid #3498db;
 }
 
-body{
+h1, h2, h3, h4, h5, h6, p, span {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
     background-image: url(private.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: right bottom;
 }
-.copyrt{
+
+.copyrt {
     margin-top: 20px;
 }
-#header h1, #header h3 { line-height: 1; }
-#header h1 em, #header h3 em { color: #d23112; font-style: normal; }
-#header h1 { font-size: 58px; margin: 0 auto; font-weight: bold;  }
-#header h3 { line-height:125%; font-family: arial; color: #757880; margin-top: 2%; margin-left: 25%; margin-right: 25%; margin-bottom: 3% font-weight: normal; font-size: 20px; }
 
+#header h1,
+#header h3 {
+    line-height: 1;
+}
 
-   @media (max-width:600px) {
-       body{
-           background-size: 40%;
-       }
-       #header h1{
-           font-size: 50px;
-       }
-       #header h3{
-           margin-left: 10%;
-           margin-right: 10%;
-       }
+#header h1 em,
+#header h3 em {
+    color: #d23112;
+    font-style: normal;
+}
 
+#header h1 {
+    font-size: 58px;
+    margin: 0 auto;
+    font-weight: bold;
+}
+
+#header h3 {
+    line-height: 125%;
+    font-family: arial;
+    color: #757880;
+    margin-top: 2%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 3%;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+@media (max-width:600px) {
+    body {
+        background-size: 40%;
     }
-    ul.share-buttons{
-      list-style: none;
-      padding: 0;
+    #header h1 {
+        font-size: 50px;
     }
+    #header h3 {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
 
-    ul.share-buttons li{
-      display: inline;
-    }
+ul.share-buttons {
+    list-style: none;
+    padding: 0;
+}
 
-    ul.share-buttons .sr-only{
-      position: absolute;
-      clip: rect(1px 1px 1px 1px);
-      clip: rect(1px, 1px, 1px, 1px);
-      padding: 0;
-      border: 0;
-      height: 1px;
-      width: 1px;
-      overflow: hidden;
-    }
+ul.share-buttons li {
+    display: inline;
+}
+
+ul.share-buttons .sr-only {
+    position: absolute;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+    padding: 0;
+    border: 0;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+}

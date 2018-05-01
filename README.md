@@ -2,7 +2,7 @@
 
 This project is a proof of concept that any website can identify and track you, even if you are using **private browsing** or **incognito mode** in your web browser. Many people think that they can hide their identity if they are using private browsing or incognito mode. This project will prove that they are wrong.
 
-![Meme](https://privatebrowsingmyths.com/images/im-a-flower-dog.jpg)
+![Meme](https://i.imgur.com/Zdhatbj.jpg)
 
 ## How to use
 
@@ -25,10 +25,10 @@ Yes, nothing is free...
 
 ### References
 
-* <http://privatebrowsingmyths.com/>
+* <https://privatebrowsingmyths.com/>
 * <https://panopticlick.eff.org/>
 * <https://amiunique.org/>
-* <http://www.pcworld.com/article/192648/browser_fingerprints.html>
+* <https://www.pcworld.com/article/192648/browser_fingerprints.html>
 * <https://en.wikipedia.org/wiki/Device_fingerprint>
 * <https://nakedsecurity.sophos.com/2014/12/01/browser-fingerprints-the-invisible-cookies-you-cant-delete/>
 
@@ -84,8 +84,8 @@ Special thanks to these rock stars:
 * Thanks to everyone who [tweeted](https://www.google.co.in/search?q=intext%3Anothingprivate.ml+site%3Atwitter.com) about this.
 * Thanks to TechCycle for this [demo video](https://www.youtube.com/watch?v=R_Dbu0BSjus).
 * Thanks Joe for [https://pnut.io/](https://pnut.io/@joe/133641).
-* Thanks to the @Mozilla community for [discussing](https://plus.google.com/+la%C3%A9rciohenriquedasilva/posts/UAZPhC7qrfi) privacy issues. Some users even reported that nothing private is even working correctly with the latest version of Firefox focus. They created an [issue](https://github.com/mozilla-mobile/focus-android/issues/900) for it.
-* [http://softwarelivre.org](http://softwarelivre.org/piratas/blog/site-prova-que-janela-anonima-nao-e-sigilosa).
+* Thanks to the @Mozilla community for [discussing](https://plus.google.com/+la%C3%A9rciohenriquedasilva/posts/UAZPhC7qrfi) privacy issues. Some users even reported that nothing private is even working correctly with the latest version of Firefox Focus. They created an [issue](https://github.com/mozilla-mobile/focus-android/issues/900) for it.
+* [https://softwarelivre.org/](https://softwarelivre.org/piratas/blog/site-prova-que-janela-anonima-nao-e-sigilosa).
 
 ## Having trouble
 

@@ -1,10 +1,10 @@
 # Nothing Private [![Build Status](https://travis-ci.org/gautamkrishnar/nothing-private.svg?branch=master)](https://travis-ci.org/gautamkrishnar/nothing-private)
 
-This project is proof that any website can identify and track you, even if you are using **private browsing** or **incognito mode** in your web browser. Many people think that they can hide their identity if they use private browsing or incognito mode. This project will prove that they are wrong.
+This project demosntrated the ability of a  website to identify and track users, even if they are using **private browsing** or **incognito mode** in their web browsers. Many people think that they can hide their identity if they use private browsing or incognito mode. This project will prove that they are wrong.
 
 ![Meme](https://i.imgur.com/Zdhatbj.jpg)
 
-## How to use
+## How to use the website
 
 * Visit <http://www.nothingprivate.ml> and enter your name
 * Click the **"See the magic"** button

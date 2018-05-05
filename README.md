@@ -75,6 +75,10 @@ Special thanks to these rock stars:
 * [Fisayo Afolayan](https://github.com/fisayoafolayan)
 * [Miles McCain](https://github.com/milesmcc)
 * [Jobin Philip Abraham](https://github.com/jophab)
+* [Miles McCain](https://github.com/milesmcc)
+* [Akshay Kumar](https://github.com/akshaykumar123)
+* [Roger](https://github.com/rogersachan)
+* [Anuradha Iyer](https://github.com/Anuradha-Iyer)
 
 ## Thanks
 

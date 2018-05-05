@@ -4,11 +4,11 @@ This project is a proof of concept that any website can identify and track you, 
 
 ![Meme](https://i.imgur.com/Zdhatbj.jpg)
 
-## How to use
+## How to use the website
 
 * Visit <http://www.nothingprivate.ml> and enter your name
-* Click **"see the magic"**
-* Visit the same website in your Private browsing / Incognito mode
+* Click the **"See the magic"** button
+* Visit the same website in Private browsing / Incognito mode
 * See the magic :star:
 
 ### Don't scroll down and ruin the fun... Just follow the steps above... :smile:
@@ -17,7 +17,7 @@ This project is a proof of concept that any website can identify and track you, 
 
 ## Hey! How?
 
-Hope you are surprised! :smile: Yes, the website can remember your name even if you had visited it via **private browsing** or **incognito mode**. Yes, nothing is private in this world anymore! This is what the big companies are doing with your identity. You think that going into private mode will wipe out all the traces? **Absolutely not!** In reality, using private browsing or incognito mode will just help you to clear your browsing history. Your internet service provider, search engines, and your favorite websites **can still track you**. They can know you. They know what you like and dislike. They use your data to earn money. The video below explains everything:
+Hope you are surprised! :smile: Yes, the website can remember your name even if you had visited it via **private browsing** or **incognito mode**. Yes, nothing is private in this world anymore! This is what the big companies are doing with your identity. You think that going into private mode will wipe out all the traces? **Absolutely not!** In reality, using private browsing or incognito mode will just help you to clear your browsing history. Your internet service provider, search engines, and your favorite websites **can still track you**. They know what you like and dislike. They use your data to earn money. The video below explains everything:
 
 [![Not free](https://img.youtube.com/vi/5pFX2P7JLwA/0.jpg)](https://www.youtube.com/watch?v=5pFX2P7JLwA)
 
@@ -34,7 +34,7 @@ Yes, nothing is free...
 
 ### Some tech stuff
 
-Nothing Private uses the browser fingerprinting feature of [Client.js](https://github.com/jackspirou/clientjs) to obtain the fingerprint of your web browser. When you submit the form, it will save the fingerprint along with your name in a SQLite database using PHP as a backend. The next time you visit the website, your browser fingerprint is matched with the column in the database and it will return your name.
+Nothing Private uses the browser fingerprinting feature of [Client.js](https://github.com/jackspirou/clientjs) to obtain the fingerprint of your web browser. When you submit the form, this fingerprint is saved, along with your name in an SQLite database using PHP as a backend. The next time you visit the website, your browser fingerprint is matched with the column in the database and your name is returned.
 
 Visit [db_server](https://github.com/gautamkrishnar/nothing-private/tree/master/db_server) for the server files.
 
@@ -87,10 +87,10 @@ Special thanks to these rock stars:
 * Thanks to the @Mozilla community for [discussing](https://plus.google.com/+la%C3%A9rciohenriquedasilva/posts/UAZPhC7qrfi) privacy issues. Some users even reported that nothing private is even working correctly with the latest version of Firefox Focus. They created an [issue](https://github.com/mozilla-mobile/focus-android/issues/900) for it.
 * [https://softwarelivre.org/](https://softwarelivre.org/piratas/blog/site-prova-que-janela-anonima-nao-e-sigilosa).
 
-## Having trouble
+## Having trouble?
 
 If you are having trouble using this project, please open a [new issue](https://github.com/gautamkrishnar/nothing-private/issues/new) and describe your problem.
 
-## Spread the word
+## Spread the word!
 
 Liked the project? Just give it a star :star: and spread the word!

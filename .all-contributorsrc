@@ -1,25 +1,15 @@
 {
   "projectName": "nothing-private",
-  "projectOwner": "Gautam Krishna R",
+  "projectOwner": "gautamkrishnar",
   "repoType": "github",
   "repoHost": "https://github.com",
   "files": [
     "README.md"
   ],
   "imageSize": 100,
-  "commit": true,
+  "contributorsPerLine": 6,
+  "commit": false,
   "contributors": [
-    {
-      "login": "gautamkrishnar",
-      "name": "Gautam krishna.R",
-      "avatar_url": "https://avatars2.githubusercontent.com/u/8397274?v=4",
-      "profile": "http://www.gautamkrishnar.com",
-      "contributions": [
-        "code",
-        "bug",
-        "doc"
-      ]
-    },
     {
       "login": "milesmcc",
       "name": "Miles McCain",

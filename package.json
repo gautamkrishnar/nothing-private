@@ -1,0 +1,29 @@
+{
+  "name": "nothing-private",
+  "version": "1.0.0",
+  "description": "This project is a proof of concept that any website can identify and track you, even if you are using private browsing or incognito mode in your web browser",
+  "main": "main.js",
+  "scripts": {
+    "contributors:add": "all-contributors add",
+    "contributors:generate": "all-contributors generate"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gautamkrishnar/nothing-private.git"
+  },
+  "keywords": [
+    "nothing",
+    "private",
+    "privacy"
+  ],
+  "author": "Gautam krishna R <r.gautamkrishna@gmail.com> (http://www.gautamkrishnar.com/)",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/gautamkrishnar/nothing-private/issues"
+  },
+  "homepage": "https://github.com/gautamkrishnar/nothing-private#readme",
+  "devDependencies": {
+    "all-contributors-cli": "^4.11.1"
+  },
+  "dependencies": {}
+}

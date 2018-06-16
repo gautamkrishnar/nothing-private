@@ -8,7 +8,7 @@
   ],
   "imageSize": 100,
   "contributorsPerLine": 6,
-  "commit": false,
+  "commit": true,
   "contributors": [
     {
       "login": "milesmcc",
@@ -251,6 +251,15 @@
       "name": "Permik",
       "avatar_url": "https://avatars0.githubusercontent.com/u/11646902?v=4",
       "profile": "http://permik.xyz",
+      "contributions": [
+        "bug"
+      ]
+    },
+    {
+      "login": "sleepyeinstein",
+      "name": "sleepyeinstein",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/26408649?v=4",
+      "profile": "https://github.com/sleepyeinstein",
       "contributions": [
         "bug"
       ]

@@ -113,3 +113,7 @@ ul.share-buttons .sr-only {
     width: 1px;
     overflow: hidden;
 }
+
+.center {
+    text-align: center;
+}

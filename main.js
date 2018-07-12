@@ -26,15 +26,20 @@ function savefingerprint(check) {
             var arr = JSON.parse(this.responseText);
             if (arr['status'] === 0) {
                 rendernewtabpage(arr['name']);
+                showNotification();
             } else if (arr['status'] === 1) {
                 rendersubmit(name);
             } else if (arr['status'] === 3) {
                 rendermain();
+                showNotification();
             }
         }
     };
     xhr.open("GET", url + param);
     xhr.send();
+}
+
+function showNotification(){
     iziToast.show({
         id: 'show',
         title: 'Hi, We need your help!',

@@ -263,6 +263,16 @@
       "contributions": [
         "bug"
       ]
+    },
+    {
+      "login": "JanStefanski",
+      "name": "Jan Stefański",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/35927327?v=4",
+      "profile": "https://github.com/JanStefanski",
+      "contributions": [
+        "code",
+        "bug"
+      ]
     }
   ]
 }

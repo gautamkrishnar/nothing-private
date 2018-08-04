@@ -72,6 +72,11 @@ Special thanks to these rockstars:
 
 * Thanks to the **100K**:star: users.
 * Thanks to [DuckDuckGo](https://ddg.gg) for this [tweet](https://twitter.com/duckduckgo/status/884763902847971329).
+<img src="https://user-images.githubusercontent.com/8397274/43674474-23811f90-97f2-11e8-857f-94618ebb4fc9.jpg" width="300">
+
+* Thanks to [CloudFlare](https://www.cloudflare.com) for their support and [PRO Plan](https://blog.cloudflare.com/cloudflare-open-source-your-upgrade-is-on-the-house/) Sponsorship.
+<img src="https://www.cloudflare.com/img/logo-web-badges/cf-logo-on-white-bg.svg" width="300">
+
 * [33giga.com.br](https://33giga.com.br/)  for the [blog post](https://33giga.com.br/site-prova-que-janela-anonima-nao-e-sigilosa-veja-como-navegar-sem-deixar-vestigios-na-rede/).
 * Thanks to everyone who [tweeted](https://www.google.co.in/search?q=intext%3Anothingprivate.ml+site%3Atwitter.com) about this.
 * Thanks to TechCycle for this [demo video](https://www.youtube.com/watch?v=R_Dbu0BSjus).

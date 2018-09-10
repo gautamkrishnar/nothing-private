@@ -26,48 +26,15 @@ function savefingerprint(check) {
             var arr = JSON.parse(this.responseText);
             if (arr['status'] === 0) {
                 rendernewtabpage(arr['name']);
-                showNotification();
             } else if (arr['status'] === 1) {
                 rendersubmit(name);
             } else if (arr['status'] === 3) {
                 rendermain();
-                showNotification();
             }
         }
     };
     xhr.open("GET", url + param);
     xhr.send();
-}
-
-function showNotification(){
-    iziToast.show({
-        id: 'show',
-        title: 'Hi, We need your help!',
-        icon: 'icon-drafts',
-        class: 'custom1',
-        message: 'Support <b>Nothing Private</b> by voting for a new logo on GitHub',
-        position: 'bottomCenter',
-        image: 'private.jpg',
-        balloon: false,
-        close: false,
-        progressBar: false,
-        timeout: 20 * 1000,
-        buttons: [
-            ['<button>Vote</button>', function (instance, toast) {
-
-                //instance.hide({ transitionOut: 'fadeOutUp' }, toast);
-                window.open('https://github.com/gautamkrishnar/nothing-private/issues/45','_self');
-
-
-            }],
-            ['<button>Not Now!</button>', function (instance, toast) {
-
-                instance.hide({ transitionOut: 'fadeOutUp' }, toast);
-
-
-            }]
-        ]
-    });
 }
 
 function forgetme() {

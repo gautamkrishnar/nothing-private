@@ -273,6 +273,15 @@
         "code",
         "bug"
       ]
+    },
+    {
+      "login": "mleisy",
+      "name": "Matthew Leisy",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/26848967?v=4",
+      "profile": "https://github.com/mleisy",
+      "contributions": [
+        "code"
+      ]
     }
   ]
 }

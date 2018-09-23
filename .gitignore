@@ -1,2 +1,5 @@
 node_modules
 .idea
+*.DS_Store
+cypress/videos/
+cypress/screenshots/

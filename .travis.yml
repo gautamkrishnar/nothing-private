@@ -26,3 +26,4 @@ cache:
 script:
 - sonar-scanner
 - npm run test
+- kill $(jobs -p) || true

@@ -9,7 +9,7 @@
     "cypress:open": "cypress open",
     "cy:verify": "cypress verify",
     "start": "node ./test-server.js",
-    "cy:run": "cypress run --record",
+    "cy:run": "cypress run --record --group CI-Tests",
     "test": "start-server-and-test start http://localhost:8080 cy:run"
   },
   "repository": {

@@ -2,7 +2,7 @@ dist: trusty
 sudo: required
 language: node_js
 node_js:
-  - "node"
+  - 10.8
 addons:
   sonarcloud:
     organization: "gautamkrishnar-github"
@@ -12,9 +12,17 @@ addons:
 jdk:
   - oraclejdk8
 
-script:
-  - sonar-scanner
-
 cache:
+  # cache both npm modules and Cypress binary
   directories:
     - '$HOME/.sonar/cache'
+    - ~/.npm
+    - ~/.cache
+    # install dependencies and check that Cypress can run
+  override:
+    - npm ci
+    - npm run cy:verify
+
+script:
+- sonar-scanner
+- npm run test

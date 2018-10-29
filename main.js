@@ -19,7 +19,7 @@ function savefingerprint(check) {
     }
 
     var xhr = new XMLHttpRequest();
-    var url = window.location.protocol + "//belikebill.azurewebsites.net/areyousafe/safedb.php";
+    var url = window.location.protocol + "//belikebill.ga/nothing-pvt/safedb.php";
 
     xhr.onreadystatechange = function () {
         if (this.readyState === 4 && this.status === 200) {
@@ -45,7 +45,7 @@ function forgetme() {
     param = encodeURI("?finger=" + fingerprint);
 
     var xhr = new XMLHttpRequest();
-    var url = window.location.protocol + "//belikebill.azurewebsites.net/areyousafe/forgetme.php";
+    var url = window.location.protocol + "//belikebill.ga/nothing-pvt/forgetme.php";
 
     xhr.onreadystatechange = function () {
         if (this.readyState === 4 && this.status === 200) {

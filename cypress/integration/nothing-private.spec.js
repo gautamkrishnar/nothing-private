@@ -3,7 +3,7 @@ describe('Nothing Private e2e tests', function() {
     // Test initial API Calls on page load
     it('Initial page loading and API Calls', function() {
         cy.server();
-        cy.route('GET', '*/safedb.php*').as('safeDbAPI');
+        cy.route('GET', 'http://nothingprivate.000webhostapp.com/safedb.php*').as('safeDbAPI');
         cy.visit('http://localhost:8080');
         cy.wait('@safeDbAPI');
         cy.get('@safeDbAPI').should((xhr) => {
@@ -19,7 +19,7 @@ describe('Nothing Private e2e tests', function() {
         cy.get('input#name').should('have.value', '');
         cy.get('input.btn').should('have.value', 'See the magic!');
         cy.server();
-        cy.route('*/safedb.php*').as('safeDbAPI');
+        cy.route('http://nothingprivate.000webhostapp.com/safedb.php*').as('safeDbAPI');
         cy.get('#name').type('cypress user').should('have.value', 'cypress user');
         cy.get('input.btn').click();
         cy.wait('@safeDbAPI');
@@ -33,7 +33,7 @@ describe('Nothing Private e2e tests', function() {
     // Tests get fingerprint functionality
     it('Functionality test: Refreshing the page, checks whether the fingerprint is detected', function() {
         cy.server();
-        cy.route('GET', '*/safedb.php*').as('safeDbAPI');
+        cy.route('GET', 'http://nothingprivate.000webhostapp.com/safedb.php*').as('safeDbAPI');
         cy.visit('http://localhost:8080');
         cy.wait('@safeDbAPI');
         cy.get('@safeDbAPI').should((xhr) => {
@@ -48,7 +48,7 @@ describe('Nothing Private e2e tests', function() {
     // Tests forget fingerprint functionality
     it('Functionality test: Clicking on "Forget me" button', function() {
         cy.server();
-        cy.route('GET', '*/forgetme.php*').as('forgetMeAPI');
+        cy.route('GET', 'http://nothingprivate.000webhostapp.com/forgetme.php*').as('forgetMeAPI');
         cy.get('input.btn').should('have.value', 'Forget Me!');
         cy.get('input.btn').click();
         cy.wait('@forgetMeAPI').should((xhr) => {

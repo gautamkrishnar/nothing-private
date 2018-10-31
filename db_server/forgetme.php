@@ -1,7 +1,7 @@
 <?php
 
 header("Access-Control-Allow-Origin: *");
-require_once('connection.php');
+require_once('./connection.php');
 $finger = "finger";
 
 if (isset($_GET[$finger]))

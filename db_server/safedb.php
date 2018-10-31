@@ -1,7 +1,7 @@
 <?php
 
 header("Access-Control-Allow-Origin: *");
-require_once('connection.php');
+require_once('./connection.php');
 $finger = "finger";
 $status = "status";
 if (isset($_GET[$finger]))
@@ -10,7 +10,7 @@ if (isset($_GET[$finger]))
     $stmt->bind_param("s", $_GET[$finger]);
     $stmt->execute();
     $result = $stmt->get_result();
-    $count = $result->num_rows;	
+    $count = $result->num_rows;
     while($row = $result->fetch_assoc()) {
         $name['name'] = $row['name'];
         $name[$status] = 0;

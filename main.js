@@ -19,7 +19,7 @@ function savefingerprint(check) {
     }
 
     var xhr = new XMLHttpRequest();
-    var url = window.location.protocol + "//ngpvt.rf.gd/safedb.php";
+    var url = window.location.protocol + "//nothingprivate.000webhostapp.com/safedb.php";
 
     xhr.onreadystatechange = function () {
         if (this.readyState === 4 && this.status === 200) {
@@ -38,14 +38,13 @@ function savefingerprint(check) {
 }
 
 function forgetme() {
-    var param = "";
     var client = new ClientJS(); // Create A New Client Object
     var fingerprint = client.getFingerprint(); // Calculate Device/Browser Fingerprint
 
-    param = encodeURI("?finger=" + fingerprint);
+    var param = encodeURI("?finger=" + fingerprint);
 
     var xhr = new XMLHttpRequest();
-    var url = window.location.protocol + "//ngpvt.rf.gd/forgetme.php";
+    var url = window.location.protocol + "//nothingprivate.000webhostapp.com/forgetme.php";
 
     xhr.onreadystatechange = function () {
         if (this.readyState === 4 && this.status === 200) {

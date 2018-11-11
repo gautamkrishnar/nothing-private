@@ -77,6 +77,11 @@ Special thanks to these rockstars:
 * Thanks to [CloudFlare](https://www.cloudflare.com) for their support and [PRO Plan](https://blog.cloudflare.com/cloudflare-open-source-your-upgrade-is-on-the-house/) Sponsorship.
 <img src="https://www.cloudflare.com/img/logo-web-badges/cf-logo-on-white-bg.svg" width="300">
 
+* **00Webhost** for hosting the API:
+<a href="https://www.000webhost.com/1120509.html" target="_blank">
+<img src="https://user-images.githubusercontent.com/8397274/48307610-96944080-e576-11e8-86f3-fa62ee0e6f55.png" width="300">
+</a>
+
 * [33giga.com.br](https://33giga.com.br/)  for the [blog post](https://33giga.com.br/site-prova-que-janela-anonima-nao-e-sigilosa-veja-como-navegar-sem-deixar-vestigios-na-rede/).
 * Thanks to everyone who [tweeted](https://www.google.co.in/search?q=intext%3Anothingprivate.ml+site%3Atwitter.com) about this.
 * Thanks to TechCycle for this [demo video](https://www.youtube.com/watch?v=R_Dbu0BSjus).

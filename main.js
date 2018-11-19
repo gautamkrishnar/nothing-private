@@ -44,8 +44,10 @@ function savefingerprint(check) {
             }
         }
     };
-    xhr.onerror = errorHandler(); // Error handler
     xhr.open("GET", url + param);
+    xhr.onerror = function () {
+        errorHandler(); // Error handler
+    };
     xhr.send();
 }
 
@@ -72,8 +74,10 @@ function forgetme() {
             }
         }
     };
-    xhr.onerror = errorHandler(); // Error handler
     xhr.open("GET", url + param);
+    xhr.onerror = function () {
+        errorHandler(); // Error handler
+    };
     xhr.send();
 }
 

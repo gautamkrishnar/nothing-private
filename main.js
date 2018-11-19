@@ -33,6 +33,7 @@ function savefingerprint(check) {
             }
         }
     };
+    xhr.onerror = errorHandler();
     xhr.open("GET", url + param);
     xhr.send();
 }
@@ -55,6 +56,7 @@ function forgetme() {
             }
         }
     };
+    xhr.onerror = errorHandler();
     xhr.open("GET", url + param);
     xhr.send();
 }
@@ -78,4 +80,13 @@ function rendersubmit(name) {
 
 function rendermain() {
     document.getElementById("maindiv").innerHTML = '<div id="maindiv"><h3>Do you think that switching to your browser\'s <b>private browsing mode</b> or <b>incognito mode</b> will make you anonymous?<br/><br/> Sorry to disappoint you, <b>but you are wrong!.</b> Everyone can track you. You can check it out for yourself. Just type your name below.</h3><input type="text" name="name" id="name" class="txt" placeholder="Your Name" autofocus/><br/><br/><input type="button" class="btn" onclick="savefingerprint(1)" value="See the magic!" /><br/></div>';
+}
+
+function reload() {
+    document.getElementById("maindiv").innerHTML = '<div id="maindiv"><h3>Loading... please wait...</h3></div>';
+    savefingerprint(0);
+}
+
+function errorHandler() {
+    document.getElementById("maindiv").innerHTML = '<h3><b>An API error occurred! Please try again.</b> <br/><br/> Nothing Private is using free hosting (00Webhost) to host the APIs.<br/><br/> It doesn\'t guarantee 100% uptime. Sorry for the inconvenience caused.  </h3><br><br><input type="button" class="btn" onclick="reload(0)" value="Retry" /><br><br>';
 }

@@ -1,13 +1,13 @@
 <?php
 
-header("Access-Control-Allow-Origin: *");
-require_once('./connection.php');
-$finger = "finger";
-$status = "status";
+header('Access-Control-Allow-Origin: *');
+require_once __DIR__ . '/connection.php';
+$finger = 'finger';
+$status = 'status';
 if (isset($_GET[$finger]))
 {
     $stmt = $mysqli->prepare('SELECT * FROM browsertab WHERE fingerprint=?');
-    $stmt->bind_param("s", $_GET[$finger]);
+    $stmt->bind_param('s', $_GET[$finger]);
     $stmt->execute();
     $result = $stmt->get_result();
     $count = $result->num_rows;
@@ -30,7 +30,7 @@ if (isset($_GET[$finger]))
             die();
         }
         $stmt = $mysqli->prepare('INSERT INTO browsertab VALUES (?,?)');
-        $stmt->bind_param("ss", $_GET[$finger], $_GET['name']);
+        $stmt->bind_param('ss', $_GET[$finger], $_GET['name']);
         $stmt->execute();
         $ar[$status] = 1;
         echo json_encode($ar);
@@ -40,8 +40,5 @@ if (isset($_GET[$finger]))
 }
 else
 {
-    echo "Not&nbsp;a&nbsp;website!";
+    echo 'Not&nbsp;a&nbsp;website!';
 }
-?>
-
-

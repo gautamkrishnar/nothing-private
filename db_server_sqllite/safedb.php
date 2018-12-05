@@ -2,11 +2,10 @@
 
 header('Access-Control-Allow-Origin: *');
 $location = 'sqlite:' . __DIR__ . '/safebrowsing.sqllite3';
-$finger = 'finger';
-$status = 'status';
-if (isset($_GET[$finger]))
-{
+$finger   = 'finger';
+$status   = 'status';
 
+if (isset($_GET[$finger])) {
     $dbh = new PDO($location) || die('cannot open the database');
 
     $stmt = $dbh->prepare('SELECT * FROM browsertab WHERE fingerprint=?') || trigger_error($dbh->error, E_USER_ERROR);
@@ -15,18 +14,16 @@ if (isset($_GET[$finger]))
 
     $count = 0;
     if ($result) {
-        $name['name'] = $result['name'];
+        $name['name']  = $result['name'];
         $name[$status] = 0;
-	$count = 1;
+        $count         = 1;
         echo json_encode($name);
         $dbh = null;
         die();
     }
 
-    if ($count == 0)
-    {
-        if (isset($_GET['check']))
-        {
+    if ($count == 0) {
+        if (isset($_GET['check'])) {
             $arr[$status] = 3;
             echo json_encode($arr);
             die();
@@ -37,11 +34,9 @@ if (isset($_GET[$finger]))
 
         $ar[$status] = 1;
         echo json_encode($ar);
-	$dbh=null;
-	die();
+        $dbh = null;
+        die();
     }
-}
-else
-{
+} else {
     echo 'Not&nbsp;a&nbsp;website!';
 }

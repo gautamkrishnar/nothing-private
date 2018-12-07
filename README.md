@@ -17,7 +17,7 @@ This project is a proof of concept that any website can identify and track you, 
 
 ## Hey! How?
 
-Hope you are surprised! :smile: Yes, the website can remember your name even if you had visited it via **private browsing** or **incognito mode**. Yes, nothing is private in this world anymore! This is what the big companies are doing with your identity. You think that going into private mode will wipe out all the traces? **Absolutely not!** In real, using private browsing or incognito mode will just help you to clear your browsing history. Your internet service provider, search engines, and your favorite websites **can still track you**. They know your likes and dislikes. They use your data to earn money. The video below explains everything:
+Hope you are surprised! :smile: Yes, the website can remember your name even if you had visited it via **private browsing** or **incognito mode**. Yes, nothing is private in this world anymore! This is what the big companies are doing with your identity. You think that going into private mode will wipe out all the traces? **Absolutely not!** In reality, using private browsing or incognito mode will just help you to clear your browsing history. Your internet service provider, search engines, and your favorite websites **can still track you**. They know your likes and dislikes. They use your data to earn money. The video below explains everything:
 
 [![Not free](https://img.youtube.com/vi/5pFX2P7JLwA/0.jpg)](https://www.youtube.com/watch?v=5pFX2P7JLwA)
 
@@ -36,7 +36,7 @@ Yes, nothing is free...
 
 Nothing Private uses the browser fingerprinting feature of [Client.js](https://github.com/jackspirou/clientjs) to obtain the fingerprint of your web browser. When you submit the form, this fingerprint is saved, along with your name in an MySQL database using PHP as a backend. The next time you visit the website your browser fingerprint is matched with the column in the database and your name is returned.
 
-Visit [db_server](https://github.com/gautamkrishnar/nothing-private/tree/master/db_server) for the server files. For the SQLLite version of the backend code visit [db_server_sqllite (Depreciated)](https://github.com/gautamkrishnar/nothing-private/tree/master/db_server_sqllite).
+Visit [db_server](https://github.com/gautamkrishnar/nothing-private/tree/master/db_server) for the server files. For the SQLLite version of the backend code visit [db_server_sqllite (Deprecated)](https://github.com/gautamkrishnar/nothing-private/tree/master/db_server_sqllite).
 
 #### Technologies used
 

@@ -36,7 +36,7 @@ Yes, nothing is free...
 
 Nothing Private uses the browser fingerprinting feature of [Client.js](https://github.com/jackspirou/clientjs) to obtain the fingerprint of your web browser. When you submit the form, this fingerprint is saved, along with your name in an MySQL database using PHP as a backend. The next time you visit the website your browser fingerprint is matched with the column in the database and your name is returned.
 
-Visit [db_server](https://github.com/gautamkrishnar/nothing-private/tree/master/db_server) for the server files. For the SQLLite version of the backend code visit [db_server_sqllite (Deprecated)](https://github.com/gautamkrishnar/nothing-private/tree/master/db_server_sqllite).
+Visit [db_server](https://github.com/gautamkrishnar/nothing-private/tree/master/db_server) for the server files. (See [historical SQLite version](https://github.com/gautamkrishnar/nothing-private/tree/2abc011c39e500279169f70118048d6592860cce/db_server_sqllite) of the backend code).
 
 #### Technologies used
 

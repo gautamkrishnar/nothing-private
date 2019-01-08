@@ -72,6 +72,10 @@ Special thanks to these rockstars:
 ## Thanks
 
 * Thanks to the **100K**:star: users.
+
+* Thanks to [IssueHunt](https://issuehunt.io/) for sponsoring this project: <br/>
+<a href='https://issuehunt.io/repos/76684607'><img src="https://raw.githubusercontent.com/BoostIO/issuehunt-materials/master/v1/issuehunt-button-v1.svg?sanitize=true" height="50px"></a>
+
 * Thanks to [DuckDuckGo](https://ddg.gg) for this [tweet](https://twitter.com/duckduckgo/status/884763902847971329).
 <img src="https://user-images.githubusercontent.com/8397274/43674474-23811f90-97f2-11e8-857f-94618ebb4fc9.jpg" width="300">
 

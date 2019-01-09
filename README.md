@@ -31,6 +31,7 @@ Yes, nothing is free...
 * <https://www.pcworld.com/article/192648/browser_fingerprints.html>
 * <https://en.wikipedia.org/wiki/Device_fingerprint>
 * <https://nakedsecurity.sophos.com/2014/12/01/browser-fingerprints-the-invisible-cookies-you-cant-delete/>
+* <https://spreadprivacy.com/browser-fingerprinting/>
 
 ### Some tech stuff
 

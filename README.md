@@ -83,7 +83,7 @@ Special thanks to these rockstars:
 * Thanks to [CloudFlare](https://www.cloudflare.com) for their support and [PRO Plan](https://blog.cloudflare.com/cloudflare-open-source-your-upgrade-is-on-the-house/) Sponsorship.
 <img src="https://www.cloudflare.com/img/logo-web-badges/cf-logo-on-white-bg.svg" width="300">
 
-* **00Webhost** for hosting the API:
+* **000Webhost** for hosting the API:
 <a href="https://www.000webhost.com/1120509.html" target="_blank">
 <img src="https://user-images.githubusercontent.com/8397274/48307610-96944080-e576-11e8-86f3-fa62ee0e6f55.png" width="300">
 </a>

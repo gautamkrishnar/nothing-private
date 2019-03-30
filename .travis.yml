@@ -11,7 +11,10 @@ addons:
 
 jdk:
 - oraclejdk8
-
+branches:
+  only:
+  - gh-page
+  - master
 cache:
   # cache both npm modules and Cypress binary
   directories:

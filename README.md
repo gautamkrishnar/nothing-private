@@ -24,7 +24,7 @@ Hope you are surprised! :smile: Yes, the website can remember your name even if 
 Yes, nothing is free...
 
 ## How to stay safe?
-You can prevent browser fingerprinting by using some of the browsers listed in [secure browsers list](./Secure-Browsers.md) curated by the community. You can also prevent trackinng by innstalling tools like [AdGuard](https://adguard.com).
+You can prevent browser fingerprinting by using some of the browsers listed in [secure browsers list](./Secure-Browsers.md) curated by the community. You can also prevent tracking by installing tools like [AdGuard](https://adguard.com).
 
 Browser fingerprinting is just an example of several ways that can be used to track your identity. For some others visit Freecodecamp [blog](https://www.freecodecamp.org/news/what-you-should-know-about-web-tracking-and-how-it-affects-your-online-privacy-42935355525/). Here's a picture from the blog that explains the current situation:
 ![https://user-images.githubusercontent.com/8397274/59973123-728ee800-95b8-11e9-90b3-78c6e4003120.jpeg](https://user-images.githubusercontent.com/8397274/59973123-728ee800-95b8-11e9-90b3-78c6e4003120.jpeg)

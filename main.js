@@ -5,8 +5,10 @@
  * Function to handle saving of fingerprint and initial loading of API.
  * @param check flag specify certain tasks 0 => Initial checking of whether the fingerprint exists in db.
  */
-function savefingerprint(check) {
 
+const API_ROOT = window.location.protocol + "//nothingprivate.000webhostapp.com";
+
+function savefingerprint(check) {
     var param = "";
     var client = new ClientJS(); // Create A New Client Object
     var fingerprint = client.getFingerprint(); // Calculate Device/Browser Fingerprint
@@ -27,7 +29,7 @@ function savefingerprint(check) {
 
     // Constructing request
     var xhr = new XMLHttpRequest();
-    var url = window.location.protocol + "//nothingprivate.000webhostapp.com/safedb.php";
+    var url = API_ROOT + "/safedb.php";
 
     xhr.onreadystatechange = function () {
         if (this.readyState === 4 && this.status === 200) {
@@ -63,7 +65,7 @@ function forgetme() {
 
     // Constructing request
     var xhr = new XMLHttpRequest();
-    var url = window.location.protocol + "//nothingprivate.000webhostapp.com/forgetme.php";
+    var url = API_ROOT + "/forgetme.php";
 
     xhr.onreadystatechange = function () {
         if (this.readyState === 4 && this.status === 200) {

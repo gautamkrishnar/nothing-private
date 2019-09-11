@@ -62,6 +62,17 @@ Feel free to modify the code and open any pull requests.
 * [ ] Add more links
 * [ ] Fix any typos
 
+## Running locally
+
+You can run nothing private locally via docker using the commands below:
+```bash
+git clone git@github.com:gautamkrishnar/nothing-private.git
+cd nothing-private
+docker-compose up -d # use --build to update image if you do 'git pull'
+```
+
+Visit http://localhost/
+
 ## Contributors
 Special thanks to these rockstars:
 

@@ -1,0 +1,27 @@
+version: "3.1"
+services:
+  app:
+    build: .
+    ports:
+      - "80:80"
+    restart: always
+    networks:
+      - default
+  database:
+    image: mysql:8.0
+    command: --default-authentication-plugin=mysql_native_password
+    expose:
+      - '3306'
+    environment:
+      MYSQL_DATABASE: safedb
+      MYSQL_USER: safeuser
+      MYSQL_PASSWORD: safeuser
+      MYSQL_ROOT_PASSWORD: safeuser
+    restart: always
+    volumes:
+      - ./db_server:/docker-entrypoint-initdb.d
+      - ./docker/data:/var/lib/mysql
+    networks:
+      - default
+networks:
+  default:

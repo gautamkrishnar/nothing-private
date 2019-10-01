@@ -9,4 +9,4 @@ Following are the browsers that doesn't allows browser fingerpinting. If you are
 | [BriskBard](https://www.briskbard.com/index.php?lang=en) | Windows| 1.6.9| [jatinsharma28](https://github.com/jatinsharma28)|
 | [Waterfox](https://www.waterfox.net/) [(See notes)](waterfox_notes.md) | Windows/Linux/Mac | 56.2.11+ | [jragard](https://github.com/jragard) |
 | [Pale Moon](https://www.palemoon.org/) [(See notes)](pale_moon_notes.md) | Windows/Linux | 28.5.2+ | [jragard](https://github.com/jragard) |
-
+| [Firefox](https://www.mozilla.org/en-US/firefox/download/) [(See notes)](https://github.com/awaisrafiq410/hacktoberfest2019/blob/master/awais.md) | Windows/Linux | 69.0.1 (64-bit) | [awaisrafiq410](https://github.com/awaisrafiq410) |

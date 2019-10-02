@@ -1,21 +1,37 @@
-.btn {
+#site-content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+#header {
+  flex: 1;
+}
+
+input.btn {
     background: #3498db;
     background-color: #2980b9;
-    -webkit-box-shadow: 0 1px 3px #666666;
+    /*-webkit-box-shadow: 0 1px 3px #666666;
     -moz-box-shadow: 0 1px 3px #666666;
-    box-shadow: 0 1px 3px #666666;
+    box-shadow: 0 1px 3px #666666;*/
     font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
     color: #ffffff;
-    font-size: 20px;
-    padding: 10px 20px 10px 20px;
+    font-size: 22px;
+    padding: 12px 24px;
     text-decoration: none;
     border: none;
     cursor: pointer;
 }
 
-.btn:hover {
+input.btn:hover {
     background: #3cb0fd;
     text-decoration: none;
+    box-shadow: 0px 2px 10px rgba(0,0,0,.3);
+}
+
+input.btn:active {
+    box-shadow: none;
 }
 
 .hyp {
@@ -24,6 +40,7 @@
 }
 
 .txt {
+    border-radius: 5px;
     margin-top: 20px;
     background: #ffffff;
     -webkit-border-radius: 28;
@@ -46,6 +63,7 @@ html {
 }
 
 body {
+    height: 100%;
     background-image: url(private.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;

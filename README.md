@@ -13,7 +13,7 @@ This project is a proof of concept that any website can identify and track you, 
 
 ### Don't scroll down and ruin the fun... Just follow the steps above... :smile:
 
-<br/><br/><br/><br/><br/><br/>
+<br/>
 
 ## Hey! How?
 

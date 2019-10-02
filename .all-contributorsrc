@@ -354,6 +354,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "mmacq",
+      "name": "Maciej B",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/23295125?v=4",
+      "profile": "https://github.com/mmacq",
+      "contributions": [
+        "code"
+      ]
     }
   ]
 }

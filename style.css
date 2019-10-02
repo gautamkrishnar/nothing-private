@@ -43,8 +43,8 @@ input.btn:active {
     border-radius: 5px;
     margin-top: 20px;
     background: #ffffff;
-    -webkit-border-radius: 28;
-    -moz-border-radius: 28;
+    -webkit-border-radius: 28px;
+    -moz-border-radius: 28px;
     border-radius: 0;
     font-family: Arial, Helvetica, sans-serif;
     color: #000000;
@@ -87,7 +87,7 @@ body {
 
 #header h1 {
     font-size: 58px;
-    margin: 0 auto;
+    margin: 10px auto 0;
     font-weight: bold;
 }
 

@@ -372,6 +372,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "ElienVissers",
+      "name": "ElienVissers",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/44362822?v=4",
+      "profile": "https://elienvissers.herokuapp.com/",
+      "contributions": [
+        "doc"
+      ]
     }
   ]
 }

@@ -1,5 +1,5 @@
 # Secure Browsers
-Following are the browsers that doesn't allows browser fingerpinting. If you are a privacy freak, use one of following browsers:
+The following list shows browsers that don't allow browser fingerpinting. If you are a privacy freak, use one of following browsers:
 
 | Browser | Platform | Version | Reported By |
 | ------------- | ------------- | ------------- | ------------- |

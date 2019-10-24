@@ -1,4 +1,4 @@
-# Nothing Private [![Build Status](https://travis-ci.org/gautamkrishnar/nothing-private.svg?branch=master)](https://travis-ci.org/gautamkrishnar/nothing-private) [![Build Status](https://dev.azure.com/gautamkrishnar/Nothing%20Private%20Backend/_apis/build/status/Nothing%20Private%20backend%20deployment?branchName=gh-pages)](https://dev.azure.com/gautamkrishnar/Nothing%20Private%20Backend/_build/latest?definitionId=6&branchName=gh-pages) [![All Contributors](https://img.shields.io/badge/all_contributors-40-orange.svg?style=flat-square)](#contributors) [![ProductHunt](https://img.shields.io/badge/View_on-Product_Hunt-orange.svg?style=flat-square)](https://www.producthunt.com/posts/nothing-private)
+# Nothing Private [![Build Status](https://travis-ci.org/gautamkrishnar/nothing-private.svg?branch=master)](https://travis-ci.org/gautamkrishnar/nothing-private) [![Build Status](https://dev.azure.com/gautamkrishnar/Nothing%20Private%20Backend/_apis/build/status/Nothing%20Private%20backend%20deployment?branchName=gh-pages)](https://dev.azure.com/gautamkrishnar/Nothing%20Private%20Backend/_build/latest?definitionId=6&branchName=gh-pages) [![All Contributors](https://img.shields.io/badge/all_contributors-41-orange.svg?style=flat-square)](#contributors) [![ProductHunt](https://img.shields.io/badge/View_on-Product_Hunt-orange.svg?style=flat-square)](https://www.producthunt.com/posts/nothing-private)
 
 This project is a proof of concept that any website can identify and track you, even if you are using **private browsing** or **incognito mode** in your web browser. Many people think that they can hide their identity if they are using private browsing or incognito mode. This project will prove that they are wrong.
 
@@ -41,7 +41,7 @@ Browser fingerprinting is just an example of several ways that can be used to tr
 
 ### Some tech stuff
 
-Nothing Private uses the browser fingerprinting feature of [Client.js](https://github.com/jackspirou/clientjs) to obtain the fingerprint of your web browser. When you submit the form, this fingerprint is saved, along with your name in an MySQL database using PHP as a backend. The next time you visit the website your browser fingerprint is matched with the column in the database and your name is returned.
+Nothing Private uses the browser fingerprinting feature of [Client.js](https://github.com/jackspirou/clientjs) to obtain the fingerprint of your web browser. When you submit the form, this fingerprint is saved, along with your name in a MySQL database using PHP as a backend. The next time you visit the website your browser fingerprint is matched with the column in the database and your name is returned.
 
 Visit [db_server](https://github.com/gautamkrishnar/nothing-private/tree/master/db_server) for the server files. (See [historical SQLite version](https://github.com/gautamkrishnar/nothing-private/tree/2abc011c39e500279169f70118048d6592860cce/db_server_sqllite) of the backend code).
 
@@ -132,6 +132,7 @@ Special thanks to these rockstars:
     <td align="center"><a href="https://github.com/mmacq"><img src="https://avatars3.githubusercontent.com/u/23295125?v=4" width="100px;" alt="Maciej B"/><br /><sub><b>Maciej B</b></sub></a><br /><a href="https://github.com/gautamkrishnar/nothing-private/commits?author=mmacq" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/quadratrund"><img src="https://avatars2.githubusercontent.com/u/56112624?v=4" width="100px;" alt="quadratrund"/><br /><sub><b>quadratrund</b></sub></a><br /><a href="https://github.com/gautamkrishnar/nothing-private/commits?author=quadratrund" title="Code">💻</a></td>
     <td align="center"><a href="https://elienvissers.herokuapp.com/"><img src="https://avatars1.githubusercontent.com/u/44362822?v=4" width="100px;" alt="ElienVissers"/><br /><sub><b>ElienVissers</b></sub></a><br /><a href="https://github.com/gautamkrishnar/nothing-private/commits?author=ElienVissers" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/ruuuh20"><img src="https://avatars1.githubusercontent.com/u/19366753?v=4" width="100px;" alt="P K"/><br /><sub><b>P K</b></sub></a><br /><a href="https://github.com/gautamkrishnar/nothing-private/commits?author=ruuuh20" title="Documentation">📖</a></td>
   </tr>
 </table>
 

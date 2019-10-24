@@ -132,5 +132,5 @@ function reload() {
  * Error handling code
  */
 function errorHandler() {
-    document.getElementById("maindiv").innerHTML = '<h3><b>An API error occurred! Please try again.</b> <br/><br/> Nothing Private is using free hosting (00Webhost) to host the APIs.<br/><br/> It doesn\'t guarantee 100% uptime. Sorry for the inconvenience caused.  </h3><br><br><input type="button" class="btn" onclick="reload(0)" value="Retry" /><br><br>';
+    document.getElementById("maindiv").innerHTML = '<h3><b>An API error occurred! Please try again.</b> <br/><br/> Nothing Private is using free hosting (00Webhost) to host the APIs.<br/><br/> It doesn\'t guarantee 100% uptime. Sorry for the inconvenience caused. Please visit <a href="https://status.nothingprivate.ml/">status.nothingprivate.ml</a> for the checking the API Status. </h3><br><br><input type="button" class="btn" onclick="reload(0)" value="Retry" /><br><br>';
 }

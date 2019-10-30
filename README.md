@@ -38,6 +38,7 @@ Browser fingerprinting is just an example of several ways that can be used to tr
 * <https://en.wikipedia.org/wiki/Device_fingerprint>
 * <https://nakedsecurity.sophos.com/2014/12/01/browser-fingerprints-the-invisible-cookies-you-cant-delete/>
 * <https://spreadprivacy.com/browser-fingerprinting/>
+* <https://time.com/4673602/terms-service-privacy-security/>
 
 ### Some tech stuff
 

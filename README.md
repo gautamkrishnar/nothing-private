@@ -26,7 +26,7 @@ Yes, nothing is free...
 ## How to stay safe?
 You can prevent browser fingerprinting by using some of the browsers listed in [secure browsers list](./Secure-Browsers.md) curated by the community. You can also prevent tracking by installing tools like [AdGuard](https://adguard.com).
 
-Browser fingerprinting is just an example of several ways that can be used to track your identity. For some others visit Freecodecamp [blog](https://www.freecodecamp.org/news/what-you-should-know-about-web-tracking-and-how-it-affects-your-online-privacy-42935355525/). Here's a picture from the blog that explains the current situation:
+Browser fingerprinting is just an example of several ways that can be used to track your identity. For other examples, visit Freecodecamp [blog](https://www.freecodecamp.org/news/what-you-should-know-about-web-tracking-and-how-it-affects-your-online-privacy-42935355525/). Here's a picture from the blog that explains the current situation:
 ![https://user-images.githubusercontent.com/8397274/59973123-728ee800-95b8-11e9-90b3-78c6e4003120.jpeg](https://user-images.githubusercontent.com/8397274/59973123-728ee800-95b8-11e9-90b3-78c6e4003120.jpeg)
 
 ### References
@@ -42,7 +42,7 @@ Browser fingerprinting is just an example of several ways that can be used to tr
 
 ### Some tech stuff
 
-Nothing Private uses the browser fingerprinting feature of [Client.js](https://github.com/jackspirou/clientjs) to obtain the fingerprint of your web browser. When you submit the form, this fingerprint is saved, along with your name in a MySQL database using PHP as a backend. The next time you visit the website your browser fingerprint is matched with the column in the database and your name is returned.
+Nothing Private uses the browser fingerprinting feature of [Client.js](https://github.com/jackspirou/clientjs) to obtain the fingerprint of your web browser. When you submit the form, this fingerprint is saved along with your name in a MySQL database using PHP as a backend. The next time you visit the website your browser fingerprint is matched with the column in the database and your name is returned.
 
 Visit [db_server](https://github.com/gautamkrishnar/nothing-private/tree/master/db_server) for the server files. (See [historical SQLite version](https://github.com/gautamkrishnar/nothing-private/tree/2abc011c39e500279169f70118048d6592860cce/db_server_sqllite) of the backend code).
 

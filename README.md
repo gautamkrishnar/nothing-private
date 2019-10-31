@@ -1,4 +1,4 @@
-# Nothing Private [![Build Status](https://travis-ci.org/gautamkrishnar/nothing-private.svg?branch=master)](https://travis-ci.org/gautamkrishnar/nothing-private) [![Build Status](https://dev.azure.com/gautamkrishnar/Nothing%20Private%20Backend/_apis/build/status/Nothing%20Private%20backend%20deployment?branchName=gh-pages)](https://dev.azure.com/gautamkrishnar/Nothing%20Private%20Backend/_build/latest?definitionId=6&branchName=gh-pages) [![All Contributors](https://img.shields.io/badge/all_contributors-42-orange.svg?style=flat-square)](#contributors) [![ProductHunt](https://img.shields.io/badge/View_on-Product_Hunt-orange.svg?style=flat-square)](https://www.producthunt.com/posts/nothing-private)
+# Nothing Private [![Build Status](https://travis-ci.org/gautamkrishnar/nothing-private.svg?branch=master)](https://travis-ci.org/gautamkrishnar/nothing-private) [![Build Status](https://dev.azure.com/gautamkrishnar/Nothing%20Private%20Backend/_apis/build/status/Nothing%20Private%20backend%20deployment?branchName=gh-pages)](https://dev.azure.com/gautamkrishnar/Nothing%20Private%20Backend/_build/latest?definitionId=6&branchName=gh-pages) [![All Contributors](https://img.shields.io/badge/all_contributors-43-orange.svg?style=flat-square)](#contributors) [![ProductHunt](https://img.shields.io/badge/View_on-Product_Hunt-orange.svg?style=flat-square)](https://www.producthunt.com/posts/nothing-private)
 
 This project is a proof of concept that any website can identify and track you, even if you are using **private browsing** or **incognito mode** in your web browser. Many people think that they can hide their identity if they are using private browsing or incognito mode. This project will prove that they are wrong.
 
@@ -135,6 +135,9 @@ Special thanks to these rockstars:
     <td align="center"><a href="https://elienvissers.herokuapp.com/"><img src="https://avatars1.githubusercontent.com/u/44362822?v=4" width="100px;" alt="ElienVissers"/><br /><sub><b>ElienVissers</b></sub></a><br /><a href="https://github.com/gautamkrishnar/nothing-private/commits?author=ElienVissers" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/ruuuh20"><img src="https://avatars1.githubusercontent.com/u/19366753?v=4" width="100px;" alt="P K"/><br /><sub><b>P K</b></sub></a><br /><a href="https://github.com/gautamkrishnar/nothing-private/commits?author=ruuuh20" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/Starfire1853"><img src="https://avatars3.githubusercontent.com/u/44820423?v=4" width="100px;" alt="Lynn Nguyen"/><br /><sub><b>Lynn Nguyen</b></sub></a><br /><a href="https://github.com/gautamkrishnar/nothing-private/commits?author=Starfire1853" title="Documentation">📖</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://shubham0812.github.io"><img src="https://avatars3.githubusercontent.com/u/19903539?v=4" width="100px;" alt="Shubham Kr. Singh"/><br /><sub><b>Shubham Kr. Singh</b></sub></a><br /><a href="https://github.com/gautamkrishnar/nothing-private/commits?author=Shubham0812" title="Code">💻</a></td>
   </tr>
 </table>
 

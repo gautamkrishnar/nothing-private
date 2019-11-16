@@ -165,6 +165,11 @@ Special thanks to these rockstars:
 <img src="https://user-images.githubusercontent.com/8397274/48307610-96944080-e576-11e8-86f3-fa62ee0e6f55.png" width="300">
 </a>
 
+* **BrowserStack** for free browser testing plan:
+<a href="https://www.browserstack.com/" target="_blank">
+<img src="https://www.browserstack.com/images/layout/browserstack-logo-600x315.png" width="300">
+</a>
+
 * [33giga.com.br](https://33giga.com.br/)  for the [blog post](https://33giga.com.br/site-prova-que-janela-anonima-nao-e-sigilosa-veja-como-navegar-sem-deixar-vestigios-na-rede/).
 * Thanks to everyone who [tweeted](https://www.google.co.in/search?q=intext%3Anothingprivate.ml+site%3Atwitter.com) about this.
 * Thanks to TechCycle for this [demo video](https://www.youtube.com/watch?v=R_Dbu0BSjus).

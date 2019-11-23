@@ -159,12 +159,6 @@ Special thanks to these rockstars:
 * Thanks to [AdGuard](https://adguard.com) for sponsoring me a premium plan membership:
 <img src="https://seekvectorlogo.net/wp-content/uploads/2019/01/adguard-vector-logo.png" width="300">
 
-
-* **000Webhost** for hosting the API:
-<a href="https://www.000webhost.com/1120509.html" target="_blank">
-<img src="https://user-images.githubusercontent.com/8397274/48307610-96944080-e576-11e8-86f3-fa62ee0e6f55.png" width="300">
-</a>
-
 * **BrowserStack** for free browser testing plan:
 <a href="https://www.browserstack.com/" target="_blank">
 <img src="https://www.browserstack.com/images/layout/browserstack-logo-600x315.png" width="300">

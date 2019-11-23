@@ -15,6 +15,7 @@ branches:
   only:
   - gh-page
   - master
+  - develop
 cache:
   # cache both npm modules and Cypress binary
   directories:

@@ -29,9 +29,8 @@
   "homepage": "https://github.com/gautamkrishnar/nothing-private#readme",
   "devDependencies": {
     "all-contributors-cli": "^4.11.1",
-    "cypress": "^3.1.0",
+    "cypress": "^3.6.1",
     "express": "^4.16.3",
     "start-server-and-test": "^1.7.1"
-  },
-  "dependencies": {}
+  }
 }

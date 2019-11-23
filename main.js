@@ -6,7 +6,7 @@
  * @param check flag specify certain tasks 0 => Initial checking of whether the fingerprint exists in db.
  */
 
-const API_ROOT = window.location.protocol + "//nothingprivate.000webhostapp.com";
+const API_ROOT = "https://nothing-private-api.gautamkrishnar.com";
 
 function savefingerprint(check) {
     var param = "";

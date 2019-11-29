@@ -13,7 +13,7 @@ jdk:
 - oraclejdk8
 branches:
   only:
-  - gh-page
+  - gh-pages
   - master
   - develop
 cache:

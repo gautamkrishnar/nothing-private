@@ -1,0 +1,58 @@
+{
+    "name": "php-http/curl-client",
+    "description": "PSR-18 and HTTPlug Async client with cURL",
+    "license": "MIT",
+    "keywords": [
+        "curl",
+        "http",
+        "psr-18"
+    ],
+    "homepage": "http://php-http.org",
+    "authors": [
+        {
+            "name": "Михаил Красильников",
+            "email": "m.krasilnikov@yandex.ru"
+        }
+    ],
+    "prefer-stable": true,
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.1",
+        "ext-curl": "*",
+        "php-http/discovery": "^1.6",
+        "php-http/httplug": "^2.0",
+        "php-http/message": "^1.2",
+        "psr/http-client": "^1.0",
+        "psr/http-factory": "^1.0",
+        "symfony/options-resolver": "^3.4 || ^4.0"
+    },
+    "require-dev": {
+        "guzzlehttp/psr7": "^1.0",
+        "php-http/client-integration-tests": "^2.0",
+        "phpunit/phpunit": "^7.5",
+        "zendframework/zend-diactoros": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Http\\Client\\Curl\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Http\\Client\\Curl\\Tests\\": "tests/"
+        }
+    },
+    "provide": {
+        "php-http/client-implementation": "1.0",
+        "php-http/async-client-implementation": "1.0"
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-ci": "vendor/bin/phpunit --coverage-clover build/coverage.xml"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.x-dev"
+        }
+    }
+}

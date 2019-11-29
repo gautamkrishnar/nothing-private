@@ -1,0 +1,9 @@
+{
+  "name": "Nothing private API",
+  "description": "API that saves and fetches fingerprint for Notching Private website.",
+  "homepage": "https://php-download.com/",
+  "type": "project",
+  "require": {
+    "sentry/sdk": "^2.0.4.0"
+  }
+}

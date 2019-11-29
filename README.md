@@ -159,10 +159,15 @@ Special thanks to these rockstars:
 * Thanks to [AdGuard](https://adguard.com) for sponsoring me a premium plan membership:
 <img src="https://seekvectorlogo.net/wp-content/uploads/2019/01/adguard-vector-logo.png" width="300">
 
-* **BrowserStack** for free browser testing plan:
+* **BrowserStack** for browser testing sponsorship:
 <a href="https://www.browserstack.com/" target="_blank">
 <img src="https://www.browserstack.com/images/layout/browserstack-logo-600x315.png" width="300">
 </a>
+
+* **Sentry** for error monitoring sponsorship:
+  <a href="https://sentry.io/" target="_blank">
+  <img src="https://sentry-brand.storage.googleapis.com/sentry-logo-black.png" width="300">
+  </a>
 
 * [33giga.com.br](https://33giga.com.br/)  for the [blog post](https://33giga.com.br/site-prova-que-janela-anonima-nao-e-sigilosa-veja-como-navegar-sem-deixar-vestigios-na-rede/).
 * Thanks to everyone who [tweeted](https://www.google.co.in/search?q=intext%3Anothingprivate.ml+site%3Atwitter.com) about this.

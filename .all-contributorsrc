@@ -408,6 +408,16 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "Tuanthai4444",
+      "name": "Tuanthai4444",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/39924523?v=4",
+      "profile": "https://github.com/Tuanthai4444",
+      "contributions": [
+        "test"
+      ]
     }
-  ]
+  ],
+  "skipCi": true
 }

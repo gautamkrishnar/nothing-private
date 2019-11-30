@@ -78,7 +78,8 @@ Visit http://localhost/
 Special thanks to these rockstars:
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
 <table>
   <tr>
     <td align="center"><a href="https://rmrm.io"><img src="https://avatars2.githubusercontent.com/u/3037552?v=4" width="100px;" alt="Miles McCain"/><br /><sub><b>Miles McCain</b></sub></a><br /><a href="https://github.com/gautamkrishnar/nothing-private/commits?author=milesmcc" title="Code">💻</a> <a href="https://github.com/gautamkrishnar/nothing-private/commits?author=milesmcc" title="Documentation">📖</a></td>
@@ -138,9 +139,12 @@ Special thanks to these rockstars:
   </tr>
   <tr>
     <td align="center"><a href="https://shubham0812.github.io"><img src="https://avatars3.githubusercontent.com/u/19903539?v=4" width="100px;" alt="Shubham Kr. Singh"/><br /><sub><b>Shubham Kr. Singh</b></sub></a><br /><a href="https://github.com/gautamkrishnar/nothing-private/commits?author=Shubham0812" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/Tuanthai4444"><img src="https://avatars3.githubusercontent.com/u/39924523?v=4" width="100px;" alt="Tuanthai4444"/><br /><sub><b>Tuanthai4444</b></sub></a><br /><a href="https://github.com/gautamkrishnar/nothing-private/commits?author=Tuanthai4444" title="Tests">⚠️</a></td>
   </tr>
 </table>
 
+<!-- markdownlint-enable -->
+<!-- prettier-ignore-end -->
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 ## Thanks

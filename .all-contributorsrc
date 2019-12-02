@@ -417,6 +417,15 @@
       "contributions": [
         "test"
       ]
+    },
+    {
+      "login": "csam333",
+      "name": "chinna samudrudu",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/28950221?v=4",
+      "profile": "https://github.com/csam333",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "skipCi": true

@@ -1,14 +1,14 @@
 /*jshint sub:true*/
 "use strict";
 
-const API_ROOT = "https://nothing-private-api.gautamkrishnar.com";
-let Fingerprint = ''; // global variable to save the fingerprint
+var API_ROOT = "https://nothing-private-api.gautamkrishnar.com";
+var Fingerprint = ''; // global variable to save the fingerprint
 
 /**
  * Function that calculates fingerprint
  */
 function calculateFingerprint() {
-    let client = new ClientJS(); // Create A New Client Object
+    var client = new ClientJS(); // Create A New Client Object
     return client.getFingerprint(); // Calculate Device/Browser Fingerprint
 }
 
@@ -38,8 +38,8 @@ function pageLoader() {
  * @param check - true: Initial api call
  */
 function saveFingerPrintAPICall(check) {
-    let param = "";
-    let name = "";
+    var param = "";
+    var name = "";
     // Constructing GET Params
     if (check) {
         // Checks whether the fingerprint already exists in DB.
@@ -55,13 +55,13 @@ function saveFingerPrintAPICall(check) {
     }
 
     // Constructing request
-    const xhr = new XMLHttpRequest();
-    const url = API_ROOT + "/safedb.php";
+    var xhr = new XMLHttpRequest();
+    var url = API_ROOT + "/safedb.php";
 
     xhr.onreadystatechange = function () {
         if (this.readyState === 4 && this.status === 200) {
             try {
-                const arr = JSON.parse(this.responseText);
+                var arr = JSON.parse(this.responseText);
                 if (arr['status'] === 0) {
                     // Fingerprint already exists.
                     renderNewTabPage(arr['name']);
@@ -88,16 +88,16 @@ function saveFingerPrintAPICall(check) {
  * Function to remove the saved fingerprint from the database.
  */
 function forgetMe() {
-    const param = encodeURI("?finger=" + Fingerprint);
+    var param = encodeURI("?finger=" + Fingerprint);
 
     // Constructing request
-    const xhr = new XMLHttpRequest();
-    const url = API_ROOT + "/forgetme.php";
+    var xhr = new XMLHttpRequest();
+    var url = API_ROOT + "/forgetme.php";
 
     xhr.onreadystatechange = function () {
         if (this.readyState === 4 && this.status === 200) {
             try {
-                const responsetext = JSON.parse(this.responseText);
+                var responsetext = JSON.parse(this.responseText);
                 if (responsetext['state'] === 1) {
                     document.getElementById("user").innerHTML = 'Are you <em>Anonymous?</em>';
                     renderMain();
@@ -130,7 +130,7 @@ function renderNewTabPage(name) {
  */
 function htmlEncode(value) {
     // Code to prevent xss attack
-    const temp_div = document.createElement("div");
+    var temp_div = document.createElement("div");
     temp_div.textContent = value;
     return temp_div.innerHTML;
 }

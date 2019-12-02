@@ -426,6 +426,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "HaridevVS",
+      "name": "HaridevVS",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/56837829?v=4",
+      "profile": "https://github.com/HaridevVS",
+      "contributions": [
+        "bug"
+      ]
     }
   ],
   "skipCi": true

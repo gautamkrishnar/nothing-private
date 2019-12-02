@@ -140,6 +140,7 @@ Special thanks to these rockstars:
   <tr>
     <td align="center"><a href="https://shubham0812.github.io"><img src="https://avatars3.githubusercontent.com/u/19903539?v=4" width="100px;" alt="Shubham Kr. Singh"/><br /><sub><b>Shubham Kr. Singh</b></sub></a><br /><a href="https://github.com/gautamkrishnar/nothing-private/commits?author=Shubham0812" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/Tuanthai4444"><img src="https://avatars3.githubusercontent.com/u/39924523?v=4" width="100px;" alt="Tuanthai4444"/><br /><sub><b>Tuanthai4444</b></sub></a><br /><a href="https://github.com/gautamkrishnar/nothing-private/commits?author=Tuanthai4444" title="Tests">⚠️</a></td>
+    <td align="center"><a href="https://github.com/csam333"><img src="https://avatars1.githubusercontent.com/u/28950221?v=4" width="100px;" alt="chinna samudrudu"/><br /><sub><b>chinna samudrudu</b></sub></a><br /><a href="https://github.com/gautamkrishnar/nothing-private/commits?author=csam333" title="Code">💻</a></td>
   </tr>
 </table>
 

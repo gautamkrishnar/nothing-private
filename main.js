@@ -60,16 +60,20 @@ function saveFingerPrintAPICall(check) {
 
     xhr.onreadystatechange = function () {
         if (this.readyState === 4 && this.status === 200) {
-            const arr = JSON.parse(this.responseText);
-            if (arr['status'] === 0) {
-                // Fingerprint already exists.
-                renderNewTabPage(arr['name']);
-            } else if (arr['status'] === 1) {
-                // Fingerprint saved successfully
-                renderSubmit(name);
-            } else if (arr['status'] === 3) {
-                // New user. No fingerprint found in the DB.
-                renderMain();
+            try {
+                const arr = JSON.parse(this.responseText);
+                if (arr['status'] === 0) {
+                    // Fingerprint already exists.
+                    renderNewTabPage(arr['name']);
+                } else if (arr['status'] === 1) {
+                    // Fingerprint saved successfully
+                    renderSubmit(name);
+                } else if (arr['status'] === 3) {
+                    // New user. No fingerprint found in the DB.
+                    renderMain();
+                }
+            } catch {
+                errorHandler(); // JSON Parse error
             }
         }
     };
@@ -92,10 +96,14 @@ function forgetMe() {
 
     xhr.onreadystatechange = function () {
         if (this.readyState === 4 && this.status === 200) {
-            const responsetext = JSON.parse(this.responseText);
-            if (responsetext['state'] === 1) {
-                document.getElementById("user").innerHTML = 'Are you <em>Anonymous?</em>';
-                renderMain();
+            try {
+                const responsetext = JSON.parse(this.responseText);
+                if (responsetext['state'] === 1) {
+                    document.getElementById("user").innerHTML = 'Are you <em>Anonymous?</em>';
+                    renderMain();
+                }
+            } catch {
+                errorHandler(); // JSON Parse error
             }
         }
     };
@@ -111,7 +119,7 @@ function forgetMe() {
  * @param name saved name of the user in the DB
  */
 function renderNewTabPage(name) {
-    document.getElementById("maindiv").innerHTML = '<h3>Welcome back to the website <b>' + htmlEncode(name) + '</b>. If I can remember your name even though you are using <b>private browsing</b> / <b>incognito mode</b>, I can surely track you.<br/><br/> This is what big companies are doing. They are spying on you even when you are using <b>private browsing</b> or <b>incognito mode</b>.<br/><br/><a href="https://github.com/gautamkrishnar/nothing-private" target="_blank">Read more</a><br/><br/><input type="button" class="btn" onclick="forgetMe()" value="Forget Me!" /><br><br>If you liked this project, don\'t forget to give it a Star:<br/></h3>';
+    document.getElementById("maindiv").innerHTML = '<h3>Welcome back to the website <b>' + htmlEncode(name) + '</b>. If I can remember your name even though you are using <b>private browsing</b> / <b>incognito mode</b>, I can surely track you.<br/><br/> This is what big companies are doing. They are spying on you even when you are using <b>private browsing</b> or <b>incognito mode</b>.<br/><br/><a href="https://github.com/gautamkrishnar/nothing-private" target="_blank">Read more</a><br/><br/><input type="button" class="btn" onclick="this.disabled=true; forgetMe()" value="Forget Me!" /><br><br>If you liked this project, don\'t forget to give it a Star:<br/></h3>';
     document.getElementById("user").innerHTML = 'You are <em>' + htmlEncode(name) + '!</em>';
 }
 
@@ -132,7 +140,7 @@ function htmlEncode(value) {
  * @param name
  */
 function renderSubmit(name) {
-    document.getElementById("maindiv").innerHTML = '<h3><b>Thank you, ' + htmlEncode(name) + '! </b> Let\'s see the magic... <br/><br/>Now open a <b>private browsing window</b> or <b>incognito window</b> on your browser and visit <b>www.nothingprivate.ml</b> to see the magic...</h3><br><br><input type="button" class="btn" onclick="forgetMe()" value="Forget Me!" /><br><br>';
+    document.getElementById("maindiv").innerHTML = '<h3><b>Thank you, ' + htmlEncode(name) + '! </b> Let\'s see the magic... <br/><br/>Now open a <b>private browsing window</b> or <b>incognito window</b> on your browser and visit <b>www.nothingprivate.ml</b> to see the magic...</h3><br><br><input type="button" class="btn" onclick="this.disabled=true; forgetMe()" value="Forget Me!" /><br><br>';
 
 }
 
@@ -148,14 +156,14 @@ function renderMain() {
  */
 function reload() {
     document.getElementById("maindiv").innerHTML = '<div id="maindiv"><h3>Loading... please wait...</h3></div>';
-    saveFingerPrintAPICall(false);
+    saveFingerPrintAPICall(true);
 }
 
 /**
  * Error handling code
  */
 function errorHandler() {
-    document.getElementById("maindiv").innerHTML = '<h3><b>An API error occurred! Please try again.</b> <br/><br/> Nothing Private is using free hosting (00Webhost) to host the APIs.<br/><br/> It doesn\'t guarantee 100% uptime. Sorry for the inconvenience caused. Please visit <a href="https://status.nothingprivate.ml/">status.nothingprivate.ml</a> for the checking the API Status. </h3><br><br><input type="button" class="btn" onclick="reload(0)" value="Retry" /><br><br>';
+    document.getElementById("maindiv").innerHTML = '<h3><b>An API error occurred! Please try again.</b> <br/><br/>Please visit <a href="https://status.nothingprivate.ml/">status.nothingprivate.ml</a> for the checking the API Status. </h3><br><br><input type="button" class="btn" onclick="this.disabled=true; reload()" value="Retry" /><br><br>';
 }
 
 

@@ -4,6 +4,7 @@ language: node_js
 node_js:
 - 10.8
 addons:
+  chrome: stable
   sonarcloud:
     organization: "gautamkrishnar-github"
     token:
@@ -29,5 +30,6 @@ cache:
 
 script:
 - sonar-scanner || true # Ignore sonar-scanner
+- npm run unit-test-ci
 - npm run test
 - kill $(jobs -p) || true

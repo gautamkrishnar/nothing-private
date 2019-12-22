@@ -53,6 +53,8 @@ Visit [db_server](https://github.com/gautamkrishnar/nothing-private/tree/master/
 * [MySQL Database](https://www.mysql.com/)
 * [JSON](https://www.json.org/)
 * [HTML](https://developer.mozilla.org/es/docs/Web/HTML) & [CSS](https://developer.mozilla.org/es/docs/Web/CSS)
+* [Karma](https://karma-runner.github.io/) and [Jasmine](https://jasmine.github.io/) for unit testing
+* [Cypress](https://www.cypress.io/) for integration testing
 
 ## Contributing
 

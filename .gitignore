@@ -5,3 +5,4 @@ cypress/videos/
 cypress/screenshots/
 docker/data
 db_server/visitors.txt
+local.log

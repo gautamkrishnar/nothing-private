@@ -58,7 +58,7 @@ Visit [db_server](https://github.com/gautamkrishnar/nothing-private/tree/master/
 
 ## Contributing
 
-Feel free to modify the code and open any pull requests.
+Feel free to modify the code and open any pull requests. Also, be sure to read through the [Contributing Guidelines](./CONTRIBUTING.md)
 
 ### Todo
 

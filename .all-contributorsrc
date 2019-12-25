@@ -435,6 +435,15 @@
       "contributions": [
         "bug"
       ]
+    },
+    {
+      "login": "jamesgeorge007",
+      "name": "James George",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/25279263?v=4",
+      "profile": "https://ghuser.io/jamesgeorge007",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "skipCi": true

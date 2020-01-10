@@ -180,11 +180,16 @@ Special thanks to these rockstars:
  <img src="https://sentry-brand.storage.googleapis.com/sentry-logo-black.png" width="300">
  </a>
 
+* **JetBrains** for sponsoring the Open Source License to my favourite IDE WebStorm:
+ 
+ <a href="https://www.jetbrains.com/?from=SOCLI" target="_blank">
+ <img src="https://user-images.githubusercontent.com/8397274/72133518-a6d8c300-33a7-11ea-8979-659b248ca1a2.png" width="200">
+ </a>
+
 * [33giga.com.br](https://33giga.com.br/)  for the [blog post](https://33giga.com.br/site-prova-que-janela-anonima-nao-e-sigilosa-veja-como-navegar-sem-deixar-vestigios-na-rede/).
 * Thanks to everyone who [tweeted](https://www.google.co.in/search?q=intext%3Anothingprivate.ml+site%3Atwitter.com) about this.
 * Thanks to TechCycle for this [demo video](https://www.youtube.com/watch?v=R_Dbu0BSjus).
-* Thanks Joe for [https://pnut.io/](https://pnut.io/@joe/133641).
-* Thanks to the @Mozilla community for [discussing](https://plus.google.com/+la%C3%A9rciohenriquedasilva/posts/UAZPhC7qrfi) privacy issues. Some users even reported that nothing private is even working correctly with the latest version of Firefox Focus. They created an [issue](https://github.com/mozilla-mobile/focus-android/issues/900) for it.
+* Thanks to the @Mozilla community for discussing privacy issues. Some users even reported that nothing private is even working correctly with the latest version of Firefox Focus. They created an [issue](https://github.com/mozilla-mobile/focus-android/issues/900) for it.
 * [https://softwarelivre.org/](https://softwarelivre.org/piratas/blog/site-prova-que-janela-anonima-nao-e-sigilosa).
 
 ## Having trouble?

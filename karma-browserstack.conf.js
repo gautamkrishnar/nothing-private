@@ -95,7 +95,7 @@ module.exports = function (config) {
         },
 
         browsers: [
-            'iOS_13_iphoneXS',
+            // 'iOS_13_iphoneXS',
             'mac_catalina_safari_latest',
             'mac_catalina_opera_latest',
             'mac_catalina_firefox_latest',

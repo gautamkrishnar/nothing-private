@@ -84,10 +84,18 @@ module.exports = function (config) {
                 os_version: '9.0',
                 browser: 'android',
                 real_mobile: true
+            },
+            iOS_13_iphoneXS: {
+                base: 'BrowserStack',
+                os_version : '13.0',
+                device : 'iPhone XS',
+                real_mobile : 'true',
+                os: 'ios'
             }
         },
 
         browsers: [
+            'iOS_13_iphoneXS',
             'mac_catalina_safari_latest',
             'mac_catalina_opera_latest',
             'mac_catalina_firefox_latest',
@@ -97,8 +105,8 @@ module.exports = function (config) {
         concurrency: 5,
 
         // If browser does not capture in given timeout [ms], kill it
-        captureTimeout: 60000,
-
+        captureTimeout: (1000) * (5*60), // Long Timeout 5 minutes for iphone
+        retryLimit: 2,
         // Continuous Integration mode
         // if true, Karma captures browsers, runs the tests and exits
         singleRun: true,

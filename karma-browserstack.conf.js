@@ -21,7 +21,7 @@ module.exports = function (config) {
             'tests/main.spec.browserstack.js',
             'main.js',
         ],
-
+        hostname: 'npvt-local.com'
 
         // test results reporter to use
         // possible values: 'dots', 'progress'

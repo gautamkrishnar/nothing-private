@@ -444,6 +444,16 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "hybridx",
+      "name": "Deepesh Nair",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/12994292?v=4",
+      "profile": "http://hybridx.github.io",
+      "contributions": [
+        "userTesting",
+        "bug"
+      ]
     }
   ],
   "skipCi": true

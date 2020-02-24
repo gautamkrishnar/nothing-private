@@ -145,6 +145,7 @@ Special thanks to these rockstars:
     <td align="center"><a href="https://github.com/csam333"><img src="https://avatars1.githubusercontent.com/u/28950221?v=4" width="100px;" alt=""/><br /><sub><b>chinna samudrudu</b></sub></a><br /><a href="https://github.com/gautamkrishnar/nothing-private/commits?author=csam333" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/HaridevVS"><img src="https://avatars2.githubusercontent.com/u/56837829?v=4" width="100px;" alt=""/><br /><sub><b>HaridevVS</b></sub></a><br /><a href="https://github.com/gautamkrishnar/nothing-private/issues?q=author%3AHaridevVS" title="Bug reports">🐛</a></td>
     <td align="center"><a href="https://ghuser.io/jamesgeorge007"><img src="https://avatars2.githubusercontent.com/u/25279263?v=4" width="100px;" alt=""/><br /><sub><b>James George</b></sub></a><br /><a href="https://github.com/gautamkrishnar/nothing-private/commits?author=jamesgeorge007" title="Documentation">📖</a></td>
+    <td align="center"><a href="http://hybridx.github.io"><img src="https://avatars0.githubusercontent.com/u/12994292?v=4" width="100px;" alt=""/><br /><sub><b>Deepesh Nair</b></sub></a><br /><a href="#userTesting-hybridx" title="User Testing">📓</a> <a href="https://github.com/gautamkrishnar/nothing-private/issues?q=author%3Ahybridx" title="Bug reports">🐛</a></td>
   </tr>
 </table>
 

@@ -454,6 +454,15 @@
         "userTesting",
         "bug"
       ]
+    },
+    {
+      "login": "nunbit",
+      "name": "nunbit",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/22622087?v=4",
+      "profile": "https://github.com/nunbit",
+      "contributions": [
+        "bug"
+      ]
     }
   ],
   "skipCi": true

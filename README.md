@@ -24,7 +24,7 @@ Hope you are surprised! :smile: Yes, the website can remember your name even if 
 Yes, nothing is free...
 
 ## How to stay safe?
-You can prevent browser fingerprinting by using some of the browsers listed in [secure browsers list](secure-browsers/README.md) curated by the community. You can also prevent tracking by installing tools like [AdGuard](https://adguard.com).
+You can prevent browser fingerprinting by using some of the browsers listed in [secure browsers list](secure-browsers/README.md) curated by the community.
 
 Browser fingerprinting is just an example of several ways that can be used to track your identity. For some others visit Freecodecamp [blog](https://www.freecodecamp.org/news/what-you-should-know-about-web-tracking-and-how-it-affects-your-online-privacy-42935355525/). Here's a picture from the blog that explains the current situation:
 ![https://user-images.githubusercontent.com/8397274/59973123-728ee800-95b8-11e9-90b3-78c6e4003120.jpeg](https://user-images.githubusercontent.com/8397274/59973123-728ee800-95b8-11e9-90b3-78c6e4003120.jpeg)
@@ -168,9 +168,6 @@ Special thanks to these rockstars:
 
 * Thanks to [CloudFlare](https://www.cloudflare.com) for their support and [PRO Plan](https://blog.cloudflare.com/cloudflare-open-source-your-upgrade-is-on-the-house/) Sponsorship.
 <img src="https://www.cloudflare.com/img/logo-web-badges/cf-logo-on-white-bg.svg" width="300">
-
-* Thanks to [AdGuard](https://adguard.com) for sponsoring me a premium plan membership:
-<img src="https://seekvectorlogo.net/wp-content/uploads/2019/01/adguard-vector-logo.png" width="300">
 
 * **BrowserStack** for browser testing sponsorship:
 

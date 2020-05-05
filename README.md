@@ -175,6 +175,12 @@ Special thanks to these rockstars:
 * Thanks to [CloudFlare](https://www.cloudflare.com) for their support and [PRO Plan](https://blog.cloudflare.com/cloudflare-open-source-your-upgrade-is-on-the-house/) Sponsorship.
 <img src="https://www.cloudflare.com/img/logo-web-badges/cf-logo-on-white-bg.svg" width="300">
 
+* **Red Hat** for the Openshift [Pro](https://manage.openshift.com/register/pro_cluster) plan sponsorship:
+
+<a href="https://www.redhat.com/" target="_blank">
+<img src="https://static.redhat.com/libs/redhat/brand-assets/latest/corp/logo.svg" width="300">
+</a>
+
 * **BrowserStack** for browser testing sponsorship:
 
 <a href="https://www.browserstack.com/" target="_blank">

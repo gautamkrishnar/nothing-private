@@ -12,6 +12,7 @@ if($monitoring_url) {
 
 mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
 set_exception_handler(function ($e) {
+    global $monitoring_url;
     if ($monitoring_url) {
         Sentry\captureException($e);
     }

@@ -30,7 +30,7 @@ cache:
 
 script:
 - sonar-scanner || true # Ignore sonar-scanner
-- npm run unit-test-ci
+#- npm run unit-test-ci
 - 'if [ "$TRAVIS_PULL_REQUEST" == "false" ]; then npm run test-cross-platform; fi'
 - 'if [ "$TRAVIS_PULL_REQUEST" == "false" ]; then npm run test; else npm run test-no-record; fi'
 - kill $(jobs -p) || true

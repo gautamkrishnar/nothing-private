@@ -1,7 +1,7 @@
 /*jshint sub:true*/
 "use strict";
 
-var API_ROOT = "https://nothing-private-api.gautamkrishnar.com";
+var API_ROOT = "https://api.nothingprivate.ml";
 var Fingerprint = ''; // global variable to save the fingerprint
 
 /**
@@ -38,8 +38,8 @@ function pageLoader() {
  * @param check - true: Initial api call
  */
 function saveFingerPrintAPICall(check) {
-    var param = "";
-    var name = "";
+    var param;
+    var name;
     // Constructing GET Params
     if (check) {
         // Checks whether the fingerprint already exists in DB.

@@ -5,6 +5,12 @@ services:
     ports:
       - "80:80"
     restart: always
+    environment:
+      - MYSQL_HOST=database
+      - MYSQL_USER=safeuser
+      - MYSQL_PASSWORD=safeuser
+      - MYSQL_DB=safedb
+#      - MONITORING_URL="" # For sentry
     networks:
       - default
   database:

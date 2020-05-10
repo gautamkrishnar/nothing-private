@@ -1,5 +1,5 @@
 {
-  "name": "Nothing private API",
+  "name": "gkr/nothing-private-api",
   "description": "API that saves and fetches fingerprint for Notching Private website.",
   "homepage": "https://php-download.com/",
   "type": "project",

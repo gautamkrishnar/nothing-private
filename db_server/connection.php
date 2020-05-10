@@ -1,6 +1,6 @@
 <?php
 $host = getenv("MYSQL_HOST");
-$user = getenv("MYSQL_HOST");
+$user = getenv("MYSQL_USER");
 $password = getenv("MYSQL_PASSWORD");
 $db = getenv("MYSQL_DB");
 $monitoring_url = getenv("MONITORING_URL");

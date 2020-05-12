@@ -2,12 +2,11 @@
 <html lang="en">
   <head>
     <title>Are you anonymous?</title>
-    <script src="https://browser.sentry-cdn.com/5.15.2/bundle.min.js" integrity="sha384-HA4Glk4hAwUFBIu+OfNR4bvn6vGCxT134gRiQce9rwp2YfxcuHHG8nG7qkooJwFt" crossorigin="anonymous">
-    </script>
+    <script src="https://browser.sentry-cdn.com/5.15.5/bundle.min.js" integrity="sha384-wF7Jc4ZlWVxe/L8Ji3hOIBeTgo/HwFuaeEfjGmS3EXAG7Y+7Kjjr91gJpJtr+PAT" crossorigin="anonymous"></script>
     <script type="text/javascript">
       // Sentry error reporting code
-      if (!window.cy){
-        // No error monitoring while testing
+      if (!window.cy && Sentry){
+        // No error monitoring while testing and ignore if Sentry is not found
         Sentry.init({ dsn: 'https://b8b300051c6e40e89dd89628e7c05636@sentry.io/1823896' });
       }
     </script>

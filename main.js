@@ -72,7 +72,7 @@ function saveFingerPrintAPICall(check) {
                     // New user. No fingerprint found in the DB.
                     renderMain();
                 }
-            } catch {
+            } catch(e) {
                 errorHandler(); // JSON Parse error
             }
         }
@@ -102,7 +102,7 @@ function forgetMe() {
                     document.getElementById("user").innerHTML = 'Are you <em>anonymous?</em>';
                     renderMain();
                 }
-            } catch {
+            } catch(e) {
                 errorHandler(); // JSON Parse error
             }
         }

@@ -99,7 +99,7 @@ function forgetMe() {
             try {
                 var responsetext = JSON.parse(this.responseText);
                 if (responsetext['state'] === 1) {
-                    document.getElementById("user").innerHTML = 'Are you <em>Anonymous?</em>';
+                    document.getElementById("user").innerHTML = 'Are you <em>anonymous?</em>';
                     renderMain();
                 }
             } catch {
@@ -124,7 +124,7 @@ function renderNewTabPage(name) {
 }
 
 /**
- * Function to encode HYML value to prevent XSS Attack.
+ * Function to encode HTML value to prevent XSS Attack.
  * @param value Value to encode
  * @return {string} encoded value
  */

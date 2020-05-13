@@ -13,7 +13,7 @@
     "cy:run:local": "cypress run",
     "test": "start-server-and-test start http://localhost:8080 cy:run",
     "test-no-record": "start-server-and-test start http://localhost:8080 cy:run:local",
-    "unit-test-ci": "karma start --single-run",
+    "unit-test-ci": "karma start --single-run --browsers ChromeHeadless",
     "test-cross-platform": "karma start karma-browserstack.conf.js",
     "unit-test": "karma start",
     "test-local": "start-server-and-test start http://localhost:8080 cy:run:local"

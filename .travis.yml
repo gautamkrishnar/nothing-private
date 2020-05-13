@@ -1,4 +1,6 @@
 language: node_js
+os: linux
+dist: bionic
 node_js:
 - 10.8
 addons:
@@ -16,15 +18,10 @@ branches:
   - master
   - develop
 cache:
-  # cache both npm modules and Cypress binary
+  npm: true
   directories:
   - '$HOME/.sonar/cache'
-  - ~/.npm
   - ~/.cache
-  # install dependencies and check that Cypress can run
-  override:
-  - npm ci
-  - npm run cy:verify
 
 script:
 - sonar-scanner || true # Ignore sonar-scanner

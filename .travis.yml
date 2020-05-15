@@ -5,6 +5,9 @@ node_js:
 - 10.8
 addons:
   chrome: stable
+  apt:
+    packages:
+      - libgconf-2-4
   sonarcloud:
     organization: "gautamkrishnar-github"
     token:

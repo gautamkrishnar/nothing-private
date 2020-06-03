@@ -40,6 +40,9 @@ Browser fingerprinting is just an example of several ways that can be used to tr
 * <https://spreadprivacy.com/browser-fingerprinting/>
 * <https://time.com/4673602/terms-service-privacy-security/>
 
+### News articles
+* **Google faces $5 billion lawsuit in U.S. for tracking 'private' internet use**: <https://www.reuters.com/article/us-alphabet-google-privacy-lawsuit/google-faces-5-billion-lawsuit-in-u-s-for-tracking-private-internet-use-idUSKBN23933H>
+
 ### Some tech stuff
 
 Nothing Private uses the browser fingerprinting feature of [Client.js](https://github.com/jackspirou/clientjs) to obtain the fingerprint of your web browser. When you submit the form, this fingerprint is saved, along with your name in a MySQL database using PHP as a backend. The next time you visit the website your browser fingerprint is matched with the column in the database and your name is returned.

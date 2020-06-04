@@ -41,7 +41,9 @@ Browser fingerprinting is just an example of several ways that can be used to tr
 * <https://time.com/4673602/terms-service-privacy-security/>
 
 ### News articles
-* **Google faces $5 billion lawsuit in U.S. for tracking 'private' internet use**: <https://www.reuters.com/article/us-alphabet-google-privacy-lawsuit/google-faces-5-billion-lawsuit-in-u-s-for-tracking-private-internet-use-idUSKBN23933H>
+* [Google faces $5 billion lawsuit in U.S. for tracking 'private' internet use](https://www.reuters.com/article/us-alphabet-google-privacy-lawsuit/google-faces-5-billion-lawsuit-in-u-s-for-tracking-private-internet-use-idUSKBN23933H): You may already know about Google analytics if you are a web developer. In order to develop such a sophisticated tool, they need a lots of workforce. 
+Why are they giving it away for free?. You are paying them with your and your user's data. You can easily switch to some open source alternatives like [Matomo](https://matomo.org/), but none of the self hosted alternatives provide availability and features as the google analytics. BuiltWith says that **69.5** percent of Quantcast’s Top **10,000** sites (based on traffic) are using Google Analytics and 
+**54.6** percent of the top million websites that it tracks.
 
 ### Some tech stuff
 
@@ -71,7 +73,7 @@ Feel free to modify the code and open any pull requests. Also, be sure to read t
 
 ### Todo
 
-* [ ] Add more links
+* [ ] Add more news article links
 * [ ] Fix any typos
 
 ## Running locally

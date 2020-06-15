@@ -462,6 +462,15 @@
       "contributions": [
         "bug"
       ]
+    },
+    {
+      "login": "cherti",
+      "name": "Jonas Große Sundrup",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/6452205?v=4",
+      "profile": "https://insanity.industries",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "skipCi": true

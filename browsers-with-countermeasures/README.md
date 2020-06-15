@@ -1,5 +1,6 @@
 # Secure Browsers
-The following list shows browsers that don't allow browser fingerpinting. If you are a privacy freak, use one of following browsers:
+The following list shows browsers that are capable of thwarting the technology implemented by nothing-private.
+Be aware that the technologies implemented in these browsers are specifically thwarting the demo at `nothingprivate.ml`, but are by no means the only options to avoid fingerprinting.
 
 | Browser | Platform | Version | Reported By |
 | ------------- | ------------- | ------------- | ------------- |

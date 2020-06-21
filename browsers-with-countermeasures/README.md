@@ -1,4 +1,4 @@
-# Secure Browsers
+# Browsers with countermeasures
 The following list shows browsers that are capable of thwarting the technology implemented by nothing-private.
 Be aware that this only covers one aspect the possibilities to track you online.
 

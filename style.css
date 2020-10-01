@@ -112,6 +112,9 @@ body {
     margin-left: 10%;
     margin-right: 10%;
   }
+  .vl {
+    display: none;
+  }
 }
 
 ul.share-buttons {
@@ -152,7 +155,7 @@ a > .star-button {
   font-size: 20px;
 }
 
-.copyrt > a {
+.copyrt > div > span > a {
   text-decoration: none !important;
 }
 
@@ -164,4 +167,23 @@ a > .creator {
 
 .code-link {
   font-size: 16px;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.footer-content > span {
+  margin: 6px;
+}
+
+.vl {
+  width: 2px;
+  border-radius: 1px;
+  background-color: black;
+  height: 40px;
 }

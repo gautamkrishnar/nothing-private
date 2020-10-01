@@ -11,7 +11,7 @@ describe('Nothing Private e2e tests', function() {
             expect(xhr.url).contains('finger=').and.contains('check=1');
             expect(xhr.responseBody).to.have.property('status', 3);
         });
-        cy.contains('Sorry to disappoint you, but you are wrong!. Everyone can track you. You can check it out for yourself. Just type your name below.');
+        cy.contains('Sorry to disappoint you, but you are wrong! Everyone can track you. You can check it out for yourself. Just type your name below.');
     });
 
     // Tests save fingerprint functionality

@@ -19,6 +19,7 @@ Browsers that implement this approach include
 | [Pale Moon](https://www.palemoon.org/) [(See notes)](pale_moon_notes.md) | Windows/Linux | 28.5.2+ | [jragard](https://github.com/jragard) |
 | [Ungoogled Chromium](https://github.com/Eloston/ungoogled-chromium) [(See notes)](ungoogled_chromium_notes.md) | Windows/Linux/Mac | 80.0.3987.149-2+ | [Nunbit](https://github.com/nunbit) |
 | [Bromite](https://www.bromite.org/) | Android | v77+ | [Nunbit](https://github.com/nunbit) |
+| [Brave](https://brave.com/) | Windows/Linux | v1.11.104+ | [8ram](https://github.com/8ram)|
 
 ## Making canvas data readout entirely static
 

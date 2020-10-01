@@ -471,6 +471,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "8ram",
+      "name": "Bram Boeckx",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/30649946?v=4",
+      "profile": "https://github.com/8ram",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "skipCi": true

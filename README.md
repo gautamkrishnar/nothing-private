@@ -188,7 +188,7 @@ Special thanks to these rockstars:
 * **Red Hat** for the Openshift [Pro](https://manage.openshift.com/register/pro_cluster) plan sponsorship:
 
 <a href="https://www.redhat.com/" target="_blank">
-<img src="https://static.redhat.com/libs/redhat/brand-assets/latest/corp/logo.svg" width="300">
+<img src="https://help.openshift.com/img/logos/openshift/Powered_by_OpenShift_Online.svg" width="300">
 </a>
 
 * **BrowserStack** for browser testing sponsorship:

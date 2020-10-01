@@ -148,7 +148,7 @@ function renderSubmit(name) {
  * Renders the page on initial loading of the page (No fingerprint is found)
  */
 function renderMain() {
-    document.getElementById("maindiv").innerHTML = '<div id="maindiv"><h3>Do you think that switching to your browser\'s <b>private browsing mode</b> or <b>incognito mode</b> will make you anonymous?<br/><br/> Sorry to disappoint you, <b>but you are wrong!.</b> Everyone can track you. You can check it out for yourself. Just type your name below.</h3><input type="text" name="name" id="name" class="txt" placeholder="Your Name" autofocus/><br/><br/><input type="button" class="btn" onclick="this.disabled=true; saveFingerPrintAPICall(false)" value="See the magic!" /><br/></div>';
+    document.getElementById("maindiv").innerHTML = '<div id="maindiv"><h3>Do you think that switching to your browser\'s <b>private browsing mode</b> or <b>incognito mode</b> will make you anonymous?<br/><br/> Sorry to disappoint you, <b>but you are wrong!</b> Everyone can track you. You can check it out for yourself. Just type your name below.</h3><input type="text" name="name" id="name" class="txt" placeholder="Your Name" autofocus/><br/><br/><input type="button" class="btn" onclick="this.disabled=true; saveFingerPrintAPICall(false)" value="See the magic!" /><br/></div>';
 }
 
 /**

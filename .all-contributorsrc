@@ -480,6 +480,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "anilsenay",
+      "name": "Anıl Şenay",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1047345?v=4",
+      "profile": "http://anilsenay.com",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "skipCi": true

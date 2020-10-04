@@ -165,6 +165,7 @@ Special thanks to these rockstars:
     <td align="center"><a href="https://github.com/nunbit"><img src="https://avatars3.githubusercontent.com/u/22622087?v=4" width="100px;" alt=""/><br /><sub><b>nunbit</b></sub></a><br /><a href="https://github.com/gautamkrishnar/nothing-private/issues?q=author%3Anunbit" title="Bug reports">🐛</a></td>
     <td align="center"><a href="https://insanity.industries"><img src="https://avatars1.githubusercontent.com/u/6452205?v=4" width="100px;" alt=""/><br /><sub><b>Jonas Große Sundrup</b></sub></a><br /><a href="https://github.com/gautamkrishnar/nothing-private/commits?author=cherti" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/8ram"><img src="https://avatars1.githubusercontent.com/u/30649946?v=4" width="100px;" alt=""/><br /><sub><b>Bram Boeckx</b></sub></a><br /><a href="https://github.com/gautamkrishnar/nothing-private/commits?author=8ram" title="Documentation">📖</a></td>
+    <td align="center"><a href="http://anilsenay.com"><img src="https://avatars1.githubusercontent.com/u/1047345?v=4" width="100px;" alt=""/><br /><sub><b>Anıl Şenay</b></sub></a><br /><a href="https://github.com/gautamkrishnar/nothing-private/commits?author=anilsenay" title="Code">💻</a></td>
   </tr>
 </table>
 

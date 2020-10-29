@@ -489,6 +489,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "dlion",
+      "name": "Domenico Luciani",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/2125236?v=4",
+      "profile": "https://domenicoluciani.com",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "skipCi": true

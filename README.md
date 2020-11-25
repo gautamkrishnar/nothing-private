@@ -40,6 +40,7 @@ Browser fingerprinting is just an example of several ways that can be used to tr
 * <https://nakedsecurity.sophos.com/2014/12/01/browser-fingerprints-the-invisible-cookies-you-cant-delete/>
 * <https://spreadprivacy.com/browser-fingerprinting/>
 * <https://time.com/4673602/terms-service-privacy-security/>
+* <https://snapsearch.online/tips/androids-best-private-browsers-privacy-test/>
 
 ### News articles
 * [Google faces $5 billion lawsuit in U.S. for tracking 'private' internet use](https://www.reuters.com/article/us-alphabet-google-privacy-lawsuit/google-faces-5-billion-lawsuit-in-u-s-for-tracking-private-internet-use-idUSKBN23933H): You may already know about Google analytics if you are a web developer. In order to develop such a sophisticated tool, they need a lots of workforce. 

@@ -90,7 +90,7 @@ docker-compose up -d # use --build to update image if you do 'git pull'
 Visit http://localhost/
 
 ## Hall of Fame
-- Special thanks to [KwestiaB](https://twitter.com/KwestiaB), [Gordon Shieh](https://twitter.com/GordonShieh94) and several others not to be named for reporting the expiry of nothingprivate.ml domain [#128](https://github.com/gautamkrishnar/nothing-private/issues/128). You guys literally saved the whole project by preventing the missuse of the domain.
+- Special thanks to [KwestiaB](https://twitter.com/KwestiaB), [Gordon Shieh](https://twitter.com/GordonShieh94) and several others for reporting the expiry of nothingprivate.ml domain [#128](https://github.com/gautamkrishnar/nothing-private/issues/128). You guys literally saved the whole project by preventing the missuse of the domain.
 
 ## Contributors
 Special thanks to these rockstars:

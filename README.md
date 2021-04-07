@@ -179,7 +179,7 @@ Special thanks to these rockstars:
 
 ## Thanks
 
-* Thanks to the **200K**:star: users.
+* Thanks to the **300K**:star: users.
 
 * Thanks to [IssueHunt](https://issuehunt.io/) for sponsoring this project: <br/>
 <a href='https://issuehunt.io/repos/76684607'><img src="https://raw.githubusercontent.com/BoostIO/issuehunt-materials/master/v1/issuehunt-button-v1.svg?sanitize=true" height="50px"></a>

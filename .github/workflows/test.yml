@@ -17,9 +17,11 @@ jobs:
       - name: Test
         env:
           GITHUB_PR: ${{startsWith('GITHUB_REF','refs/pull/')}}
+          BROWSERSTACK_ACCESS_KEY: ${{secrets.BROWSERSTACK_ACCESS_KEY}}
+          BROWSERSTACK_USERNAME: ${{secrets.BROWSERSTACK_USERNAME}}
+          CYPRESS_RECORD_KEY: ${{secrets.CYPRESS_RECORD_KEY}}
         run: |
-            npm ci
-            npm run unit-test-ci
-            if [ "$GITHUB_PR" != "true" ]; then npm run test-cross-platform; fi
-            if [ "$GITHUB_PR" != "true" ]; then npm run test; else npm run test-no-record; fi
-             
+          npm ci
+          npm run unit-test-ci
+          if [ "$GITHUB_PR" != "true" ]; then npm run test-cross-platform; fi
+          if [ "$GITHUB_PR" != "true" ]; then npm run test; else npm run test-no-record; fi

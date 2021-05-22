@@ -1,0 +1,25 @@
+name: Test
+
+on:
+  push:
+    branches: [gh-pages, master, develop]
+  pull_request:
+    branches: [master]
+    types: [opened, reopened, synchronize]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: 12
+      - name: Test
+        env:
+          GITHUB_PR: ${{startsWith('GITHUB_REF','refs/pull/')}}
+        run: |
+            npm ci
+            npm run unit-test-ci
+            if [ "$GITHUB_PR" != "true" ]; then npm run test-cross-platform; fi
+            if [ "$GITHUB_PR" != "true" ]; then npm run test; else npm run test-no-record; fi
+             

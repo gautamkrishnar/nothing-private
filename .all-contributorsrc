@@ -498,6 +498,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "lachieh",
+      "name": "Lachlan Heywood",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1687902?v=4",
+      "profile": "https://hellotimber.com",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "skipCi": true

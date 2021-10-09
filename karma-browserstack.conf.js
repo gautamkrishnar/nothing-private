@@ -85,9 +85,9 @@ module.exports = function (config) {
                 browser: 'android',
                 real_mobile: true
             },
-            iOS_13_iphoneXS: {
+            iOS_14_iphoneXS: {
                 base: 'BrowserStack',
-                os_version : '13.0',
+                os_version : '14.0',
                 device : 'iPhone XS',
                 real_mobile : 'true',
                 os: 'ios'
@@ -95,7 +95,7 @@ module.exports = function (config) {
         },
 
         browsers: [
-            'iOS_13_iphoneXS',
+            'iOS_14_iphoneXS',
             'mac_catalina_safari_latest',
             'mac_catalina_opera_latest',
             'mac_catalina_firefox_latest',

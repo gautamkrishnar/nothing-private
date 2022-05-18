@@ -1,4 +1,4 @@
-FROM php:7.3-apache
+FROM php:7.4-apache
 COPY . /var/www/html/
 RUN  apt-get update && \
          apt-get install -y git zlib1g-dev libzip-dev && \

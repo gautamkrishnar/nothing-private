@@ -8,3 +8,4 @@ db_server/visitors.txt
 local.log
 browserstack.err
 db_server/vendor/
+dist

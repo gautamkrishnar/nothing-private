@@ -8,7 +8,9 @@
     "contributors:generate": "all-contributors generate",
     "cypress:open": "cypress open",
     "cy:verify": "cypress verify",
-    "start": "node ./test-server.js",
+    "start": "vite --port 8080",
+    "build": "vite build",
+    "preview": "vite preview",
     "cy:run": "cypress run --record",
     "cy:run:local": "cypress run",
     "test": "start-server-and-test start http://localhost:8080 cy:run",
@@ -35,13 +37,14 @@
   "homepage": "https://github.com/gautamkrishnar/nothing-private#readme",
   "devDependencies": {
     "all-contributors-cli": "^6.11.2",
+    "clientjs": "^0.2.1",
     "cypress": "^4.5.0",
-    "express": "^4.16.3",
     "jasmine-core": "^3.5.0",
     "karma": "^4.4.1",
     "karma-browserstack-launcher": "^1.5.1",
     "karma-chrome-launcher": "^3.1.0",
     "karma-jasmine": "^2.0.1",
-    "start-server-and-test": "^1.7.1"
+    "start-server-and-test": "^1.7.1",
+    "vite": "^4.0.4"
   }
 }

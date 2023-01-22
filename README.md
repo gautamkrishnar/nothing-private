@@ -76,7 +76,6 @@ Feel free to modify the code and open any pull requests. Also, be sure to read t
 
 ### Todo
 
-* [ ] Add more news article links
 * [ ] Fix any typos
 
 ## Running locally

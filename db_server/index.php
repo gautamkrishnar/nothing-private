@@ -1,1 +1,1 @@
-<?php header("Location: https://www.nothingprivate.ml/"); ?>
+<?php header("Location: https://nothingprivate.gkr.pw/"); ?>

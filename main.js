@@ -1,7 +1,7 @@
 /*jshint sub:true*/
 "use strict";
 
-var API_ROOT = "https://api.nothingprivate.ml";
+var API_ROOT = "https://npvt-api.gkr.pw";
 var Fingerprint = ''; // global variable to save the fingerprint
 
 /**
@@ -142,7 +142,7 @@ function htmlEncode(value) {
  * @param name
  */
 function renderSubmit(name) {
-    document.getElementById("maindiv").innerHTML = '<h3><b>Thank you, ' + htmlEncode(name) + '! </b> Let\'s see the magic... <br/><br/>Now open a <b>private browsing window</b> or <b>incognito window</b> on your browser and visit <b>www.nothingprivate.ml</b> to see the magic...</h3><br><br><input type="button" class="btn" onclick="this.disabled=true; forgetMe()" value="Forget Me!" /><br><br>';
+    document.getElementById("maindiv").innerHTML = '<h3><b>Thank you, ' + htmlEncode(name) + '! </b> Let\'s see the magic... <br/><br/>Now open a <b>private browsing window</b> or <b>incognito window</b> on your browser and visit <b>nothingprivate.gkr.pw</b> to see the magic...</h3><br><br><input type="button" class="btn" onclick="this.disabled=true; forgetMe()" value="Forget Me!" /><br><br>';
 
 }
 
@@ -165,7 +165,7 @@ function reload() {
  * Error handling code
  */
 function errorHandler() {
-    document.getElementById("maindiv").innerHTML = '<h3><b>An API error occurred! Please try again.</b> <br/><br/>Please visit <a href="https://status.nothingprivate.ml/">status.nothingprivate.ml</a> for the checking the API Status. </h3><br><br><input type="button" class="btn" onclick="this.disabled=true; reload()" value="Retry" /><br><br>';
+    document.getElementById("maindiv").innerHTML = '<h3><b>An API error occurred! Please try again.</b> <br/> </h3><br><br><input type="button" class="btn" onclick="this.disabled=true; reload()" value="Retry" /><br><br>';
 }
 
 

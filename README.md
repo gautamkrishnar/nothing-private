@@ -7,7 +7,7 @@ This project is a proof of concept that any website can identify and track you, 
 
 ## How to use the website
 
-* Visit <http://www.nothingprivate.ml> and enter your name
+* Visit <http://nothingprivate.gkr.pw> and enter your name
 * Click the **"See the magic"** button
 * Visit the same website in Private browsing / Incognito mode
 * See the magic :star:

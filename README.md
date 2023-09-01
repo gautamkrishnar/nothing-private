@@ -191,12 +191,6 @@ Special thanks to these rockstars:
 * Thanks to [CloudFlare](https://www.cloudflare.com) for their support and [PRO Plan](https://blog.cloudflare.com/cloudflare-open-source-your-upgrade-is-on-the-house/) Sponsorship.
 <img src="https://www.cloudflare.com/img/logo-web-badges/cf-logo-on-white-bg.svg" width="300">
 
-* **Red Hat** for the Openshift [Pro](https://manage.openshift.com/register/pro_cluster) plan sponsorship:
-
-<a href="https://www.redhat.com/" target="_blank">
-<img src="https://help.openshift.com/img/logos/openshift/Powered_by_OpenShift_Online.svg" width="300">
-</a>
-
 * **BrowserStack** for browser testing sponsorship:
 
 <a href="https://www.browserstack.com/" target="_blank">
@@ -220,6 +214,11 @@ Special thanks to these rockstars:
 * Thanks to TechCycle for this [demo video](https://www.youtube.com/watch?v=R_Dbu0BSjus).
 * Thanks to the @Mozilla community for discussing privacy issues. Some users even reported that nothing private is even working correctly with the latest version of Firefox Focus. They created an [issue](https://github.com/mozilla-mobile/focus-android/issues/900) for it.
 * [https://softwarelivre.org/](https://softwarelivre.org/piratas/blog/site-prova-que-janela-anonima-nao-e-sigilosa).
+*  Thanks **Tutanota** for sponsoring free encrypted emails for my opensource projects:
+
+ <a href="https://tutanota.com" target="_blank">
+ <img alt="tutanota.com" src="https://user-images.githubusercontent.com/8397274/265096374-09faa63f-6847-4133-b409-5f7dc9ed1d59.png" width="300">
+ </a>
 
 ## Having trouble?
 

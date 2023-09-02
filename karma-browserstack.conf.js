@@ -62,13 +62,13 @@ module.exports = function (config) {
                 os: 'OS X',
                 os_version: 'Catalina'
             },
-            mac_catalina_firefox_latest: {
-                base: 'BrowserStack',
-                browser: 'Firefox',
-                browser_version: 'latest',
-                os: 'OS X',
-                os_version: 'Catalina'
-            },
+            // mac_catalina_firefox_latest: {
+            //     base: 'BrowserStack',
+            //     browser: 'Firefox',
+            //     browser_version: 'latest',
+            //     os: 'OS X',
+            //     os_version: 'Catalina'
+            // },
             android_10_Pixel4XL: {
                 base: 'BrowserStack',
                 device: 'Google Pixel 4 XL',
@@ -98,7 +98,7 @@ module.exports = function (config) {
             'iOS_14_iphoneXS',
             'mac_catalina_safari_latest',
             'mac_catalina_opera_latest',
-            'mac_catalina_firefox_latest',
+            // 'mac_catalina_firefox_latest',
             'android_10_Pixel4XL',
             'android_9_OnePlus6t'
         ],

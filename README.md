@@ -214,10 +214,10 @@ Special thanks to these rockstars:
 * Thanks to TechCycle for this [demo video](https://www.youtube.com/watch?v=R_Dbu0BSjus).
 * Thanks to the @Mozilla community for discussing privacy issues. Some users even reported that nothing private is even working correctly with the latest version of Firefox Focus. They created an [issue](https://github.com/mozilla-mobile/focus-android/issues/900) for it.
 * [https://softwarelivre.org/](https://softwarelivre.org/piratas/blog/site-prova-que-janela-anonima-nao-e-sigilosa).
-*  Thanks **Tutanota** for sponsoring free encrypted emails for my opensource projects:
+*  Thanks **Tuta** for sponsoring free encrypted emails for my opensource projects:
 
- <a href="https://tutanota.com" target="_blank">
- <img alt="tutanota.com" src="https://user-images.githubusercontent.com/8397274/265096374-09faa63f-6847-4133-b409-5f7dc9ed1d59.png" width="300">
+ <a href="https://tuta.com/" target="_blank">
+ <img alt="tutanota.com" src="https://github.com/user-attachments/assets/2b4e0090-1093-4a95-bd34-13ea9561ca18" width="300">
  </a>
 
 ## Having trouble?

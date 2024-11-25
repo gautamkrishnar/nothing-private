@@ -194,7 +194,7 @@ Special thanks to these rockstars:
 * **BrowserStack** for browser testing sponsorship:
 
 <a href="https://www.browserstack.com/" target="_blank">
-<img src="https://www.browserstack.com/images/layout/browserstack-logo-600x315.png" width="300">
+<img src="https://github.com/user-attachments/assets/c50e8274-4c6a-4a2e-98f5-a54034121d6c" width="300">
 </a>
 
 * **Sentry** for error monitoring sponsorship:

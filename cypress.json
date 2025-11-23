@@ -1,3 +1,9 @@
 {
-  "projectId": "ynz1bs"
+  "projectId": "ynz1bs",
+  "defaultCommandTimeout": 10000,
+  "pageLoadTimeout": 60000,
+  "requestTimeout": 10000,
+  "responseTimeout": 30000,
+  "video": false,
+  "screenshotOnRunFailure": false
 }

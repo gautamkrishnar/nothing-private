@@ -62,45 +62,37 @@ module.exports = function (config) {
                 os: 'OS X',
                 os_version: 'Catalina'
             },
-            // mac_catalina_firefox_latest: {
-            //     base: 'BrowserStack',
-            //     browser: 'Firefox',
-            //     browser_version: 'latest',
-            //     os: 'OS X',
-            //     os_version: 'Catalina'
-            // },
-            android_10_Pixel4XL: {
+            android_13_Pixel7: {
                 base: 'BrowserStack',
-                device: 'Google Pixel 4 XL',
+                device: 'Google Pixel 7',
                 os: 'android',
-                os_version: '10.0',
+                os_version: '13.0',
                 browser: 'android',
                 real_mobile: true
             },
-            android_9_OnePlus6t: {
+            android_12_Galaxy_S22: {
                 base: 'BrowserStack',
-                device: 'OnePlus 6T',
+                device: 'Samsung Galaxy S22',
                 os: 'android',
-                os_version: '9.0',
+                os_version: '12.0',
                 browser: 'android',
                 real_mobile: true
             },
-            iOS_14_iphoneXS: {
+            iOS_16_iPhone14: {
                 base: 'BrowserStack',
-                os_version : '14.0',
-                device : 'iPhone XS',
-                real_mobile : 'true',
+                os_version : '16',
+                device : 'iPhone 14',
+                real_mobile : true,
                 os: 'ios'
             }
         },
 
         browsers: [
-            'iOS_14_iphoneXS',
+            'iOS_16_iPhone14',
             'mac_catalina_safari_latest',
             'mac_catalina_opera_latest',
-            // 'mac_catalina_firefox_latest',
-            'android_10_Pixel4XL',
-            'android_9_OnePlus6t'
+            'android_13_Pixel7',
+            'android_12_Galaxy_S22'
         ],
         concurrency: 5,
 

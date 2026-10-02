@@ -231,6 +231,12 @@ Special thanks to these rockstars:
  <img alt="tutanota.com" src="https://github.com/user-attachments/assets/2b4e0090-1093-4a95-bd34-13ea9561ca18" width="300">
  </a>
 
+*  Thanks [Greptile](https://www.greptile.com/?utm_source=oss_badge&utm_medium=readme&utm_campaign=greptile_for_open_source) for sponsoring AI reviews:
+
+ <a href="https://www.greptile.com/?utm_source=oss_badge&utm_medium=readme&utm_campaign=greptile_for_open_source" target="_blank">
+ <img alt="tutanota.com" src="https://www.greptile.com/badge.svg" width="300">
+ </a>
+
 ## Having trouble?
 
 If you are having trouble using this project, please open a [new issue](https://github.com/gautamkrishnar/nothing-private/issues/new) and describe your problem.
